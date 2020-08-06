@@ -6,9 +6,8 @@
 
 ## 📖 About Me
 
-<h3 align="left">📕 Latest Blog Posts<h3>
+## 📕 Latest Blog Posts
 
-<p align="left">
 <!-- BLOG-POST-LIST:START -->
 - [Fake News Detection Dataset Classification](https://github.com/Rapter1990/Fake-News-Detection-Dataset-Classification)
 - [Bubble Sort in Java](https://github.com/Rapter1990/Bubble-Sort)
@@ -16,7 +15,7 @@
 - [Heap Sort Example in Java](https://github.com/Rapter1990/Heap-Sort-Example)
 - [Star Wars Movie Script Data Visualization](https://github.com/Rapter1990/Star-Wars-Movie-Scripts)
 <!-- BLOG-POST-LIST:END -->
-</p>
+
 
 ## 📬 Get in touch
 
