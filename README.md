@@ -9,7 +9,7 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Fake News Detection Dataset Classification]](https://github.com/Rapter1990/Fake-News-Detection-Dataset-Classification)
+- [Fake News Detection Dataset Classification](https://github.com/Rapter1990/Fake-News-Detection-Dataset-Classification)
 - [Bubble Sort in Java](https://github.com/Rapter1990/Bubble-Sort)
 - [Formula 1 F1 Races Data Analysis](https://github.com/Rapter1990/Formula-1-F1-Races-Data-Analysis)
 - [Heap Sort Example in Java](https://github.com/Rapter1990/Heap-Sort-Example)
