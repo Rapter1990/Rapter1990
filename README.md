@@ -5,6 +5,7 @@
     <img src="https://img.shields.io/github/watchers/Rapter1990/Rapter1990?style=social" />
     <img src="https://img.shields.io/github/size/Rapter1990/Rapter1990/README.md" />
     <img src="https://img.shields.io/github/last-commit/Rapter1990/Rapter1990" />
+    <img src="https://img.shields.io/github/contributors/Rapter1990/Rapter1990" />   
     
 </p>
 
