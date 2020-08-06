@@ -6,10 +6,14 @@
 
 ## 📖 About Me
 
-- 👨🏽‍💻 I’m currently learning new fields on [Udemy](https://www.udemy.com), [Udacity](https://www.udacity.com) , [Datacamp](https://www.datacamp.com/).
+- 👨🏽‍💻 I’m currently learning new fields and improving my exist skills on [Udemy](https://www.udemy.com), [Udacity](https://www.udacity.com) , [Datacamp](https://www.datacamp.com/).
     - Here are my fields I'm learning in these days:
         - 🤖 Machine Learning in Python
         - 📊 Data Analysis in Python
+        - ✏️ Angular
+        - 🔍 React   
+- 🌱 I’m also currently learning and working Spring Boot, JSP ,Angular, React, Java, Sorting algortithms based on Java.
+
 
 ## 📕 Latest Blog Posts
 
