@@ -3,6 +3,7 @@
     <img src="https://img.shields.io/github/followers/Rapter1990?style=social" />
     <img src="https://img.shields.io/github/stars/Rapter1990/Rapter1990?style=social" />
     <img src="https://img.shields.io/github/watchers/Rapter1990/Rapter1990?style=social" />
+    <img src="https://img.shields.io/github/size/Rapter1990/Rapter1990/README.md" />
 </p>
 
 <h3 align="left">Hi 👋, I'm Sercan Noyan Germiyanoğlu</h1>
