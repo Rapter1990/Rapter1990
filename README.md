@@ -7,9 +7,9 @@
 ## 📖 About Me
 
 - 👨🏽‍💻 I’m currently learning new fields on [Udemy](https://www.udemy.com), [Udacity](https://www.udacity.com) , [Datacamp](https://www.datacamp.com/);
-        Here are fields I'm learning :
-        - 🤖 Machine Learning in Python
-        - 📊 Data Analysis in Python
+     Here are fields I'm learning :
+     - 🤖 Machine Learning in Python
+     - 📊 Data Analysis in Python
 
 ## 📕 Latest Blog Posts
 
