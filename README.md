@@ -12,7 +12,7 @@
         - 📊 Data Analysis in Python
         - ✏️ Angular
         - 🔍 React   
-- 🌱 I’m also currently learning and working Spring Boot, JSP ,Angular, React, Java, Sorting algortithms based on Java.
+- 🌱 I’m also currently learning and working Spring Boot, JSP ,Angular, React, Java, Sorting algortithms based on Java , Hibernate , SQL , HSQL.
 
 
 ## 📕 Latest Blog Posts
