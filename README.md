@@ -1,6 +1,7 @@
 <p align="left"> 
     <img src="https://komarev.com/ghpvc/?username=rapter1990" alt="rapter1990" /> 
     <img src="https://img.shields.io/github/followers/Rapter1990?style=social" />
+    <img src="https://img.shields.io/github/followings/Rapter1990?style=social" />
     <img src="https://img.shields.io/github/stars/Rapter1990/Rapter1990?style=social" />
     <img src="https://img.shields.io/github/watchers/Rapter1990/Rapter1990?style=social" />
     <img src="https://img.shields.io/github/size/Rapter1990/Rapter1990/README.md" />
