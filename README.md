@@ -31,11 +31,11 @@
 
 
 ## 📬 Get in touch
-<p align="left">&nbsp;&nbsp;
+<p align="left">
   <a href="https://www.linkedin.com/in/sercan-noyan-germiyano%C4%9Flu-1918ba16b/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="sercan-noyan-germiyanoğlu-1918ba16b/" height="30" width="30"></a>&nbsp;&nbsp;
   <a href="https://www.kaggle.com/flagnoyan/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/kaggle.svg" alt="sercan-noyan-germiyanoğlu-kaggle" height="30" width="30"></a>&nbsp;&nbsp;
   <a href="mailto:sngermiyanoglu@gmail.com"><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/gmail.svg"></a>&nbsp;&nbsp;
-  <a href="mailto:sngermiyanoglu@hotmail.com"><img height="30" src="https://github.com/Rapter1990/Rapter1990/blob/master/outlook.svg"></a>
+  <a href="mailto:sngermiyanoglu@hotmail.com"><img height="30" src="https://github.com/Rapter1990/Rapter1990/blob/master/outlook.svg"></a>&nbsp;&nbsp;
 </p>
 
 ## 📚 Language and Tools
