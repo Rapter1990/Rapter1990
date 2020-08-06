@@ -1,5 +1,6 @@
 <p align="left"> 
     <img src="https://komarev.com/ghpvc/?username=rapter1990" alt="rapter1990" /> 
+    <img src="https://img.shields.io/github/followers/Rapter1990?style=social" />
 </p>
 
 <h3 align="left">Hi 👋, I'm Sercan Noyan Germiyanoğlu</h1>
