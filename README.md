@@ -6,7 +6,7 @@
 
 ## 📖 About Me
 
-- Hi, I'm I'm Sercan Noyan Germiyanoğlu, a Java Developer 💻 from Turkey. currently, I'm working as a freelancer. 
+- 🌝 Hi, I'm I'm Sercan Noyan Germiyanoğlu, a Java Developer 💻 from Turkey. currently, I'm working as a freelancer. 
 
 - 👨🏽‍💻 I’m currently learning new fields and improving my exist skills on [Udemy](https://www.udemy.com), [Udacity](https://www.udacity.com) , [Datacamp](https://www.datacamp.com/).
     - Here are my fields I'm learning in these days:
