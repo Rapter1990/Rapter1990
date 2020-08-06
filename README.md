@@ -32,16 +32,16 @@
 
 ## 📬 Get in touch
 
-<p align="left">&nbsp;&nbsp;&nbsp;
+<p align="left">&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/sercan-noyan-germiyano%C4%9Flu-1918ba16b/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="sercan-noyan-germiyanoğlu-1918ba16b/" height="30" width="30"></a>&nbsp;&nbsp;
   <a href="https://www.kaggle.com/flagnoyan/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/kaggle.svg" alt="sercan-noyan-germiyanoğlu-kaggle" height="30" width="30"></a>&nbsp;&nbsp;
   <a href="mailto:sngermiyanoglu@gmail.com"><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/gmail.svg"></a>&nbsp;&nbsp;
-  <a href="mailto:sngermiyanoglu@hotmail.com"><img height="30" src="https://github.com/Rapter1990/Rapter1990/blob/master/outlook.svg"></a>&nbsp;&nbsp;
+  <a href="mailto:sngermiyanoglu@hotmail.com"><img height="30" src="https://github.com/Rapter1990/Rapter1990/blob/master/outlook.svg"></a>
 </p>
 
 ## 📚 Language and Tools
 
-<p align="left">
+<p align="left">&nbsp;&nbsp;
   <img src="https://devicons.github.io/devicon/devicon.git/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> 
   <img src="https://devicons.github.io/devicon/devicon.git/icons/angularjs/angularjs-original.svg" alt="angularjs" width="40" height="40"/> 
   <img src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="40" height="40"/> 
