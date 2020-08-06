@@ -25,6 +25,8 @@
   <a href="mailto:sngermiyanoglu@hotmail.com"><img height="30" src="https://github.com/Rapter1990/Rapter1990/blob/master/outlook.svg"></a>&nbsp;&nbsp;
 </p>
 
+## 📚 Language and Tools
+
 
 ## &#x1f4c8; My GitHub Stats
 
