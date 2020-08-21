@@ -32,7 +32,6 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [PUBG Weapon Stats](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/pubg)
 - [PUBG Weapon Stats Data Analysis](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/pubg) 
 - [Fake News Detection Dataset Classification](https://github.com/Rapter1990/Fake-News-Detection-Dataset-Classification)
 - [Bubble Sort in Java](https://github.com/Rapter1990/Bubble-Sort)
