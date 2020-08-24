@@ -32,6 +32,7 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Spring Boot JWT Authentication](https://github.com/Rapter1990/Spring-Boot-JWT-Authentication) 
 - [PUBG Weapon Stats Data Analysis](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/pubg) 
 - [Fake News Detection Dataset Classification](https://github.com/Rapter1990/Fake-News-Detection-Dataset-Classification)
 - [Bubble Sort in Java](https://github.com/Rapter1990/Bubble-Sort)
