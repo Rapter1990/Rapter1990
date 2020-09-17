@@ -32,11 +32,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [All Space Missions from 1957](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/All%20Space%20Missions%20from%201957)
+- [SuperDuperDrive](https://github.com/Rapter1990/cloudstorage)
 - [Merge Sort in Java](https://github.com/Rapter1990/MergeSortExample)
 - [Most Popular IDE Since 2004](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/Most%20Popular%20IDE%20Since%202004)
 - [Spring Boot JWT Authentication](https://github.com/Rapter1990/Spring-Boot-JWT-Authentication) 
-- [PUBG Weapon Stats Data Analysis](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/pubg) 
-- [Fake News Detection Dataset Classification](https://github.com/Rapter1990/Fake-News-Detection-Dataset-Classification)
 <!-- BLOG-POST-LIST:END -->
 
 
