@@ -32,11 +32,12 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Quick Sort Example](https://github.com/Rapter1990/Quick-Sort-Example) 
+- [Build the Backend System for a Car Website](https://github.com/Rapter1990/Build-the-Backend-System-for-a-Car-Website)
 - [All Space Missions from 1957](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/All%20Space%20Missions%20from%201957)
 - [SuperDuperDrive](https://github.com/Rapter1990/cloudstorage)
 - [Merge Sort in Java](https://github.com/Rapter1990/MergeSortExample)
 - [Most Popular IDE Since 2004](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/Most%20Popular%20IDE%20Since%202004)
-- [Spring Boot JWT Authentication](https://github.com/Rapter1990/Spring-Boot-JWT-Authentication) 
 <!-- BLOG-POST-LIST:END -->
 
 
