@@ -32,12 +32,12 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Bitonic Sort in Java](https://github.com/Rapter1990/Bitonic-Sort-Example)
 - [Critter Chronologer](https://github.com/Rapter1990/Critter-Chronologer)
 - [Quick Sort Example](https://github.com/Rapter1990/Quick-Sort-Example) 
 - [Build the Backend System for a Car Website](https://github.com/Rapter1990/Build-the-Backend-System-for-a-Car-Website)
 - [All Space Missions from 1957](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/All%20Space%20Missions%20from%201957)
 - [SuperDuperDrive](https://github.com/Rapter1990/cloudstorage)
-- [Merge Sort in Java](https://github.com/Rapter1990/MergeSortExample)
 <!-- BLOG-POST-LIST:END -->
 
 
