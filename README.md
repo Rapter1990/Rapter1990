@@ -32,12 +32,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Fifa21 Data Visualization](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/fifa%2021%20visualization)
+- [Cocktail Sort Example](https://github.com/Rapter1990/Cocktail-Sort-Example)
 - [eCommerce Application](https://github.com/Rapter1990/ecommerce_application)
 - [edX Courses](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/edx)
 - [Bitonic Sort Example](https://github.com/Rapter1990/Bitonic-Sort-Example)
-- [Critter Chronologer](https://github.com/Rapter1990/Critter-Chronologer)
-- [Quick Sort Example](https://github.com/Rapter1990/Quick-Sort-Example) 
-- [Build the Backend System for a Car Website](https://github.com/Rapter1990/Build-the-Backend-System-for-a-Car-Website)
 <!-- BLOG-POST-LIST:END -->
 
 
