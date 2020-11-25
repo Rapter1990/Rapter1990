@@ -13,6 +13,11 @@
 <h3 align="left">Hi 👋, I'm Sercan Noyan Germiyanoğlu</h1>
 <h4 align="left">A passionate java developer from Turkey</h3>
 
+<p align="left"> 
+    <a href="https://github.com/ryo-ma/github-profile-trophy">
+        <img src="https://github-profile-trophy.vercel.app/?username=Rapter1990&theme=onedark" alt="Rapter1990" />
+    </a>
+</p>
 
 ## 📖 About Me
 
