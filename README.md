@@ -37,11 +37,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Fruit Image Classification](https://github.com/Rapter1990/Image-Classification-Examples/tree/master/fruit_image_classification)
 - [Top Movies of 20th Century](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/Top%20Movies%20of%20the%2020th%20Century)
 - [Udacity React Nanodegree - MyReads](https://github.com/Rapter1990/Udacity-React-MyReads)
 - [Collection Sort Example](https://github.com/Rapter1990/Collection-Sort-Example)
 - [Comb Sort Example](https://github.com/Rapter1990/Comb-Sort-Example)
-- [Fifa21 Data Visualization](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/fifa%2021%20visualization)
 <!-- BLOG-POST-LIST:END -->
 
 
