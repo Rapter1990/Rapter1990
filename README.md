@@ -45,7 +45,7 @@
 <!-- BLOG-POST-LIST:END -->
 
 <a href="https://github.com/Rapter1990?tab=repositories">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/repos/?username=Rapter1990&top=5"/>
+  <img align="center" src="https://Rapter1990-github-readme-stats.vercel.app/api/repos/?username=Rapter1990&top=5"/>
 </a>
 
 ## 📬 Get in touch
