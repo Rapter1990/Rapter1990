@@ -44,7 +44,6 @@
 - [Comb Sort Example](https://github.com/Rapter1990/Comb-Sort-Example)
 <!-- BLOG-POST-LIST:END -->
 
-[![Repositories](https://github-readme-stats.vercel.app/api/repos/?username=Rapter1990&top=6)](https://github.com/Rapter1990?tab=repositories)
 
 ## 📬 Get in touch
 
