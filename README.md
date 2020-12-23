@@ -37,11 +37,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Shell Sort Example](https://github.com/Rapter1990/Shell-Sort-Example)
 - [Udacity React Nanodegree - Would you rather](https://github.com/Rapter1990/Udacity-React-Would-you-rather)
 - [Fruit Image Classification](https://github.com/Rapter1990/Image-Classification-Examples/tree/master/fruit_image_classification)
 - [Top Movies of 20th Century](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/Top%20Movies%20of%20the%2020th%20Century)
 - [Udacity React Nanodegree - MyReads](https://github.com/Rapter1990/Udacity-React-MyReads)
-- [Collection Sort Example](https://github.com/Rapter1990/Collection-Sort-Example)
 <!-- BLOG-POST-LIST:END -->
 
 
