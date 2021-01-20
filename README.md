@@ -37,11 +37,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Udacity React Nanodegree - Mobile Flashcards](https://github.com/Rapter1990/Udacity-React-Mobile-Flashcards) 
 - [Stooge Sort Example](https://github.com/Rapter1990/Stooge-Sort-Example)
 - [Wii Games with Recommendation System](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/wii%20games%20and%20recommendation%20system)
 - [Shell Sort Example](https://github.com/Rapter1990/Shell-Sort-Example)
 - [Udacity React Nanodegree - Would you rather](https://github.com/Rapter1990/Udacity-React-Would-you-rather)
-- [Fruit Image Classification](https://github.com/Rapter1990/Image-Classification-Examples/tree/master/fruit_image_classification)
 <!-- BLOG-POST-LIST:END -->
 
 
