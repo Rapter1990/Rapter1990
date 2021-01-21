@@ -37,11 +37,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Chinese Calligraphy Styles by Calligraphers](https://github.com/Rapter1990/Image-Classification-Examples)
 - [Udacity React Nanodegree - Mobile Flashcards](https://github.com/Rapter1990/Udacity-React-Mobile-Flashcards) 
 - [Stooge Sort Example](https://github.com/Rapter1990/Stooge-Sort-Example)
 - [Wii Games with Recommendation System](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/wii%20games%20and%20recommendation%20system)
 - [Shell Sort Example](https://github.com/Rapter1990/Shell-Sort-Example)
-- [Udacity React Nanodegree - Would you rather](https://github.com/Rapter1990/Udacity-React-Would-you-rather)
 <!-- BLOG-POST-LIST:END -->
 
 
