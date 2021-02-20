@@ -37,11 +37,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Spring Boot and Redis via Docker](https://github.com/Rapter1990/springbootredis)
 - [Spring Boot E-Commerce - Shopme](https://github.com/Rapter1990/Shopme)
 - [Spring Boot and Apache Kafka via Docker](https://github.com/Rapter1990/springbootkafka)
 - [COVID-19 World Vaccination Progress](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/covid%20vacination)
 - [Chinese Calligraphy Styles by Calligraphers](https://github.com/Rapter1990/Image-Classification-Examples)
-- [Udacity React Nanodegree - Mobile Flashcards](https://github.com/Rapter1990/Udacity-React-Mobile-Flashcards) 
 <!-- BLOG-POST-LIST:END -->
 
 
