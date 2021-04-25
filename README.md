@@ -37,11 +37,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Data Visualization - Comic Characters ](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/Comic%20Characters)
 - [Device Image Classification](https://github.com/Rapter1990/Image-Classification-Examples/tree/master/Device%20Classification)
 - [Spring Boot and Cassandra via Docker](https://github.com/Rapter1990/springcassandra)
 - [Spring Boot and Elastic Search via Docker](https://github.com/Rapter1990/elasticsearch)
 - [Spring Boot and RabbitMq via Docker](https://github.com/Rapter1990/springbootrabbitmq)
-- [Spring Boot and Redis via Docker](https://github.com/Rapter1990/springbootredis)
 <!-- BLOG-POST-LIST:END -->
 
 
