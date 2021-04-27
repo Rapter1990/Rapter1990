@@ -38,10 +38,10 @@
 
 <!-- BLOG-POST-LIST:START -->
 - [Data Visualization - Comic Characters ](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/Comic%20Characters)
+- [Java 15 Features](https://github.com/Rapter1990/Java15)
 - [Device Image Classification](https://github.com/Rapter1990/Image-Classification-Examples/tree/master/Device%20Classification)
 - [Spring Boot and Cassandra via Docker](https://github.com/Rapter1990/springcassandra)
 - [Spring Boot and Elastic Search via Docker](https://github.com/Rapter1990/elasticsearch)
-- [Spring Boot and RabbitMq via Docker](https://github.com/Rapter1990/springbootrabbitmq)
 <!-- BLOG-POST-LIST:END -->
 
 
