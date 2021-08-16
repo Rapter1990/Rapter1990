@@ -37,11 +37,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Data Visualization - Tokyo 2020 Olympics Games](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/tokyo%20olympics%202020)
 - [Image Classification - Ball Image Classification through VGG16](https://github.com/Rapter1990/Image-Classification-Examples/tree/master/Balls%20Image%20Classification)
 - [Spring Boot with Graphql](https://github.com/Rapter1990/springbootgraphql)
 - [Data Visualization - WW2 Aircraft](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/WW2%20Aircraft)
 - [Spring Boot and Hazelcast](https://github.com/Rapter1990/springboothazelcast)
-- [Data Visualization - Comic Characters](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/Comic%20Characters)
 <!-- BLOG-POST-LIST:END -->
 
 
