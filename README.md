@@ -21,17 +21,16 @@
 
 ## 📖 About Me
 
-- 🌝 Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="30px"> I'm Sercan Noyan Germiyanoğlu, a Java Developer 💻 from Turkey. Currently, I'm working as a freelancer. 
+- 🌝 Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="30px"> I'm Sercan Noyan Germiyanoğlu, a Java Developer 💻 from Turkey.
 
 - 👨🏽‍💻 I’m currently learning new fields and improving my existing skills on [Udemy](https://www.udemy.com), [Udacity](https://www.udacity.com) , [Datacamp](https://www.datacamp.com/).
     - Here are my fields I'm learning in these days:
         - 🤖 Machine Learning in Python
         - 📊 Data Analysis in Python
-        - ✏️ Angular
-        - 🔍 React
+        - ✏️ React
         - ⚒️ Typescript
         - 🔧 Spring Boot Microservices
-- 🌱 I’m also currently working and learning Spring Boot, JSP ,Angular, React, Java, Sorting algortithms based on Java , Hibernate , SQL , HQL and Python.
+- 🌱 I’m also currently working and learning Spring Boot, JSP , React, Java, Sorting algortithms based on Java , Hibernate , SQL , HQL and Python.
 
 
 ## 📕 Latest Blog Posts
