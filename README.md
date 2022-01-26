@@ -23,8 +23,8 @@
 
 - 🌝 Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="30px"> I'm Sercan Noyan Germiyanoğlu, a Java Developer 💻 from Turkey.
 
-- 👨🏽‍💻 I’m currently learning new fields and improving my existing skills on [Udemy](https://www.udemy.com), [Udacity](https://www.udacity.com) , [Datacamp](https://www.datacamp.com/).
-    - Here are my fields I'm learning in these days:
+- 👨🏽‍💻 I’m currently learning new fields and improving my existing skills via online platforms.
+    - Here are my fields in these days:
         - 🤖 Machine Learning in Python
         - 📊 Data Analysis in Python
         - ✏️ React
