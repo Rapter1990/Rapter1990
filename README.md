@@ -36,11 +36,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Spring Boot Minio](https://github.com/Rapter1990/SpringBootMinio)
 - [Image Classification - Vegetable Image Classification through CNN](https://github.com/Rapter1990/Image-Classification-Examples/tree/master/Vegatable%20Classification)
 - [Data Visualization - Fifa 2022](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/Fifa%202022)
 - [Spring Boot Exception Handling with AOP](https://github.com/Rapter1990/SpringBootExceptionHandlingAspect)
 - [Data Visualization - Tokyo 2020 Olympics Games](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/tokyo%20olympics%202020)
-- [Image Classification - Ball Image Classification through VGG16](https://github.com/Rapter1990/Image-Classification-Examples/tree/master/Balls%20Image%20Classification)
 <!-- BLOG-POST-LIST:END -->
 
 
