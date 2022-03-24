@@ -36,11 +36,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Valorant API in React](https://github.com/Rapter1990/ValorantApiReactProject)
 - [Refresh Token with JWT in Spring Boot](https://github.com/Rapter1990/SpringBootRefreshTokenJWT)
 - [Spring Boot Minio](https://github.com/Rapter1990/SpringBootMinio)
 - [Image Classification - Vegetable Image Classification through CNN](https://github.com/Rapter1990/Image-Classification-Examples/tree/master/Vegatable%20Classification)
 - [Data Visualization - Fifa 2022](https://github.com/Rapter1990/Data-Visualization-Examples/tree/master/Fifa%202022)
-- [Spring Boot Exception Handling with AOP](https://github.com/Rapter1990/SpringBootExceptionHandlingAspect)
 <!-- BLOG-POST-LIST:END -->
 
 
