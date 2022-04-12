@@ -56,7 +56,6 @@
 ## 📚 Language and Tools
 <p align="left">
   <img src="https://github.com/devicons/devicon/blob/master/icons/android/android-plain-wordmark.svg" alt="android" width="40" height="40"/> 
-  <img src="https://github.com/devicons/devicon/blob/master/icons/angularjs/angularjs-original.svg" alt="angularjs" width="40" height="40"/> 
   <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="40" height="40"/> 
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" alt="java" width="40" height="40"/> 
