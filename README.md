@@ -29,8 +29,8 @@
         - 📊 Data Analysis in Python
         - ✏️ React
         - ⚒️ Typescript
-        - 🔧 Spring Boot Microservices
-- 🌱 I’m also currently working and learning Spring Boot, JSP , React, Java, Sorting algortithms based on Java , Hibernate , SQL , HQL and Python.
+        - 🔧 Spring Boot & Microservices
+- 🌱 I’m also currently working and learning Spring Boot, JSP , React, Java , Hibernate , SQL , HQL and Python.
 
 
 ## 📕 Latest Blog Posts
