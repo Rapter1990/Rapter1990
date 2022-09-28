@@ -41,7 +41,6 @@
 - [React My Portfolio Website](https://github.com/Rapter1990/my-portfolio)
 - [Spring Boot Neo4j Shortest Path](https://github.com/Rapter1990/SpringBootNeo4jShortestPath)
 - [Spring Boot ELK](https://github.com/Rapter1990/SpringBootElk)
-- [Valorant API in React](https://github.com/Rapter1990/ValorantApiReactProject)
 <!-- BLOG-POST-LIST:END -->
 
 
