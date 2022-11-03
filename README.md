@@ -36,11 +36,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Find the Shortest Path through Breadth First Search in Spring Boot](https://github.com/Rapter1990/findshortestpathbfs)
 - [Spring Boot Batch Processing Database to CSV](https://github.com/Rapter1990/SpringBatchProcessDbToCsv)
 - [Spring Boot Batch Processing CSV to Database](https://github.com/Rapter1990/batchprocessingcsvtodatabase)
 - [Spring Boot Microservices](https://github.com/Rapter1990/SpringBootMicroservices)
 - [React My Portfolio Website](https://github.com/Rapter1990/my-portfolio)
-- [Spring Boot Neo4j Shortest Path](https://github.com/Rapter1990/SpringBootNeo4jShortestPath)
 <!-- BLOG-POST-LIST:END -->
 
 
