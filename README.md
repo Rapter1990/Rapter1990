@@ -36,11 +36,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Spring Boot Selenium](https://github.com/Rapter1990/selenium)
 - [DataOrb Java Stream Code Task in Java](https://github.com/Rapter1990/dataorbpayroll) 
 - [Find the Shortest Path through Breadth First Search in Spring Boot](https://github.com/Rapter1990/findshortestpathbfs)
 - [Spring Boot Batch Processing Database to CSV](https://github.com/Rapter1990/SpringBatchProcessDbToCsv)
 - [Spring Boot Batch Processing CSV to Database](https://github.com/Rapter1990/batchprocessingcsvtodatabase)
-- [Spring Boot Microservices](https://github.com/Rapter1990/SpringBootMicroservices)
 <!-- BLOG-POST-LIST:END -->
 
 
