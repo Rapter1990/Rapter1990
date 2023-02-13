@@ -36,11 +36,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Deprem Api (Kandilli & Afad)](https://github.com/Rapter1990/DepremApi)
+- [Spring Boot Microservice Example (Eureka Server, Config Server, API Gateway, Services , Zipkin, Redis, Resilience4j, Docker, Kubernetes)](https://github.com/Rapter1990/springbootmicroservicedailybuffer)
 - [Java Stream API Examples](https://github.com/Rapter1990/JavaStreamAPIExamples)
 - [Spring Boot Selenium](https://github.com/Rapter1990/selenium)
 - [DataOrb Java Stream Code Task in Java](https://github.com/Rapter1990/dataorbpayroll) 
-- [Find the Shortest Path through Breadth First Search in Spring Boot](https://github.com/Rapter1990/findshortestpathbfs)
-- [Spring Boot Batch Processing Database to CSV](https://github.com/Rapter1990/SpringBatchProcessDbToCsv)
 <!-- BLOG-POST-LIST:END -->
 
 
