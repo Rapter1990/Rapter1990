@@ -92,5 +92,5 @@
 
 
 <a href="https://github.com/Rapter1990">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Rapter1990&theme=dark&card_width=815" alt="Rapter1990's GitHub Stats" />
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Rapter1990&theme=dark&card_width=800" alt="Rapter1990's GitHub Stats" />
 </a>
