@@ -36,11 +36,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Spring Boot with the usage of JpaStreamer](https://github.com/Rapter1990/jpastreamer)
 - [Spring Boot Currency Exchange Example (Docker, Ratelimiter, Resillience4j, Resttemplate)](https://github.com/Rapter1990/currencyexchange)
 - [Spring Boot QR Generator](https://github.com/Rapter1990/qr-generator-example)
 - [Spring Boot CQRS Example (Docker, Apache Kafka, Zookeeper, MYSQL, MongoDB)](https://github.com/Rapter1990/cqrs-example)
 - [Spring Boot Deprem Api (Kandilli & Afad)](https://github.com/Rapter1990/DepremApi)
-- [Spring Boot Microservice Example (Eureka Server, Config Server, API Gateway, Services , Zipkin, Redis, Resilience4j, Docker, Kubernetes)](https://github.com/Rapter1990/springbootmicroservicedailybuffer)
 <!-- BLOG-POST-LIST:END -->
 
 
