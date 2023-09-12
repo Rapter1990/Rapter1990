@@ -10,7 +10,6 @@
     
 </p>
 
-<h3 align="left">Hi 👋, I'm Sercan Noyan Germiyanoğlu</h1>
 <h4 align="left">A passionate Senior Java Software Engineer working at <a href="https://www.huawei.com/"><b>Huawei</b></a> from Turkey</h3>
 
 <p align="left"> 
@@ -21,7 +20,7 @@
 
 ## 📖 About Me
 
-- 🌝 Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="30px"> I'm Sercan Noyan Germiyanoğlu, a Java Developer 💻 from Turkey.
+- 🌝 Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="30px"> I'm Sercan Noyan Germiyanoğlu 💻 from Turkey.
 
 - 👨🏽‍💻 I’m currently learning new fields and improving my existing skills through online platforms.
     - Here are my fields in these days:
