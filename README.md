@@ -10,7 +10,7 @@
     
 </p>
 
-<h4 align="left">A passionate Senior Java Software Engineer working at <a href="https://www.huawei.com/"><b>Huawei</b></a> from Turkey</h3>
+<h4 align="left">A passionate Senior Java Software Engineer working at <a href="https://www.huawei.com/"> <b>Huawei</b> </a> from Turkey</h4>
 
 <p align="left"> 
     <a href="https://github.com/ryo-ma/github-profile-trophy">
