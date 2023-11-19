@@ -35,11 +35,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Spring Boot with the the usage of Kubernetes Java Client API](https://github.com/Rapter1990/kubernetesjavaclientapi)
 - [Case Study - Simple Banking App](https://github.com/Rapter1990/simplebanking)
 - [Case Study - Sample Book Delivery App](https://github.com/Rapter1990/bookdelivery) 
 - [Spring Boot with the usage of JpaStreamer](https://github.com/Rapter1990/jpastreamer)
 - [Spring Boot Currency Exchange Example (Docker, Ratelimiter, Resillience4j, Resttemplate)](https://github.com/Rapter1990/currencyexchange)
-- [Spring Boot QR Generator](https://github.com/Rapter1990/qr-generator-example)
 <!-- BLOG-POST-LIST:END -->
 
 
