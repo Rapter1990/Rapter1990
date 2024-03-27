@@ -35,11 +35,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Spring Boot with Security (JWT Authentication and Authorization)](https://github.com/Rapter1990/springbootsecurity)
 - [Spring Boot JPA Specification Example](https://github.com/Rapter1990/jpaspecification)
 - [Spring Boot with the the usage of Kubernetes Java Client API](https://github.com/Rapter1990/kubernetesjavaclientapi)
 - [Case Study - Simple Banking App](https://github.com/Rapter1990/simplebanking)
 - [Case Study - Sample Book Delivery App](https://github.com/Rapter1990/bookdelivery) 
-- [Spring Boot with the usage of JpaStreamer](https://github.com/Rapter1990/jpastreamer)
 <!-- BLOG-POST-LIST:END -->
 
 
