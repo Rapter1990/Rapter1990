@@ -35,11 +35,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Case Study - Rate Limiter with Redis in Spring Boot](https://github.com/Rapter1990/ratelimiter)  
 - [Case Study - Parking Lot](https://github.com/Rapter1990/parkinglot)  
 - [Spring Boot with Security (JWT Authentication and Authorization)](https://github.com/Rapter1990/springbootsecurity)
 - [Spring Boot JPA Specification Example](https://github.com/Rapter1990/jpaspecification)
 - [Spring Boot with the the usage of Kubernetes Java Client API](https://github.com/Rapter1990/kubernetesjavaclientapi)
-- [Case Study - Simple Banking App](https://github.com/Rapter1990/simplebanking)
 <!-- BLOG-POST-LIST:END -->
 
 
