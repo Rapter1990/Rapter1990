@@ -35,11 +35,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Spring Boot with Security Role-Permission](https://github.com/Rapter1990/rolepermissionexample)
 - [Case Study - Rate Limiter with Redis in Spring Boot](https://github.com/Rapter1990/ratelimiter)  
 - [Case Study - Parking Lot](https://github.com/Rapter1990/parkinglot)  
 - [Spring Boot with Security (JWT Authentication and Authorization)](https://github.com/Rapter1990/springbootsecurity)
 - [Spring Boot JPA Specification Example](https://github.com/Rapter1990/jpaspecification)
-- [Spring Boot with the the usage of Kubernetes Java Client API](https://github.com/Rapter1990/kubernetesjavaclientapi)
 <!-- BLOG-POST-LIST:END -->
 
 
