@@ -35,11 +35,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Case Study - Courier Tracking](https://github.com/Rapter1990/couriertracking)
 - [Spring Boot Microservices with JWT](https://github.com/Rapter1990/springbootmicroserviceswithsecurity)
 - [Spring Boot with Security Role-Permission](https://github.com/Rapter1990/rolepermissionexample)
 - [Case Study - Rate Limiter with Redis in Spring Boot](https://github.com/Rapter1990/ratelimiter)  
 - [Case Study - Parking Lot](https://github.com/Rapter1990/parkinglot)  
-- [Spring Boot with Security (JWT Authentication and Authorization)](https://github.com/Rapter1990/springbootsecurity)
 <!-- BLOG-POST-LIST:END -->
 
 
