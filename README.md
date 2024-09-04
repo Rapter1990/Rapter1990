@@ -35,11 +35,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Case Study - Foreign Exchange Example](https://github.com/Rapter1990/foreignexchangeexample)
 - [Case Study - Courier Tracking](https://github.com/Rapter1990/couriertracking)
 - [Spring Boot Microservices with JWT](https://github.com/Rapter1990/springbootmicroserviceswithsecurity)
 - [Spring Boot with Security Role-Permission](https://github.com/Rapter1990/rolepermissionexample)
 - [Case Study - Rate Limiter with Redis in Spring Boot](https://github.com/Rapter1990/ratelimiter)  
-- [Case Study - Parking Lot](https://github.com/Rapter1990/parkinglot)  
 <!-- BLOG-POST-LIST:END -->
 
 
