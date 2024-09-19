@@ -30,7 +30,7 @@
         - ⚒️ Typescript
         - 🔧 Spring Boot & Microservices
 - 🌱 I’m also currently working and learning Spring Boot, JSP , React, Java , Hibernate , SQL , HQL and Python.
-- ✡️ Here is my resume [Link](https://shorturl.at/G4TP4)  
+- 🔨 Here is my resume [Link](https://shorturl.at/G4TP4)  
 
 ## 📕 Latest Blog Posts
 
