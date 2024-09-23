@@ -35,11 +35,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Case Study - To Do List in Spring Boot with Couchbase](https://github.com/Rapter1990/todowithcouchbase)
 - [Go Sample Examples](https://github.com/Rapter1990/go_sample_examples) 
 - [Case Study - Foreign Exchange Example](https://github.com/Rapter1990/foreignexchangeexample)
 - [Case Study - Courier Tracking](https://github.com/Rapter1990/couriertracking)
 - [Spring Boot Microservices with JWT](https://github.com/Rapter1990/springbootmicroserviceswithsecurity)
-- [Spring Boot with Security Role-Permission](https://github.com/Rapter1990/rolepermissionexample)
 <!-- BLOG-POST-LIST:END -->
 
 
