@@ -51,6 +51,7 @@
   <a href="mailto:sngermiyanoglu@gmail.com"><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/gmail.svg"></a>&nbsp;&nbsp;
   <a href="mailto:sngermiyanoglu@hotmail.com"><img height="30" src="https://github.com/Rapter1990/Rapter1990/blob/master/outlook.svg"></a>&nbsp;&nbsp;
   <a href="https://stackoverflow.com/users/5719229/sercan-noyan-germiyano%c4%9flu"><img height="30" src="https://github.com/Rapter1990/Rapter1990/blob/master/stackoverflow.svg"></a>&nbsp;&nbsp;
+  <a href="https://medium.com/@sngermiyanoglu"><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg"></a>&nbsp;&nbsp;
 </p>
 
 
