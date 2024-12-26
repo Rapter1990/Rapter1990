@@ -35,6 +35,12 @@
     * CI/CD (GitHub Actions) (Automated builds & deployments)
     * Prometheus & Grafana (Monitoring & application health)
     * Python (Versatile language for various purposes)
+    * Git: Version control system
+    * Redis: In-memory data store
+    * Database: PostgreSQL, MySQL (Relational database), MongoDB (NoSQL database)
+    * Apache Kafka: Distributed streaming platform
+    * Python: Versatile language for various purposes
+    * Zipkin (Distributed tracing system)
 
 - 🔨 Here is my resume [Link](https://shorturl.at/G4TP4)  
 
