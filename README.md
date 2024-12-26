@@ -23,10 +23,7 @@
 - 🌝 Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="30px"> I'm Sercan Noyan Germiyanoğlu 💻 from Turkey.
 
 * **Programming Languages & Frameworks:**
-    * Machine Learning in Python
-    * Data Analysis in Python
     * React
-    * Typescript
     * Spring Boot & Microservices
 * **Technologies:**
     * Spring Boot (Java framework for rapid app development)
