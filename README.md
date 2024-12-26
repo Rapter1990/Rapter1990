@@ -22,14 +22,20 @@
 
 - 🌝 Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="30px"> I'm Sercan Noyan Germiyanoğlu 💻 from Turkey.
 
-- 👨🏽‍💻 I’m currently learning new fields and improving my existing skills through online platforms.
-    - Here are my fields in these days:
-        - 🤖 Machine Learning in Python
-        - 📊 Data Analysis in Python
-        - ✏️ React
-        - ⚒️ Typescript
-        - 🔧 Spring Boot & Microservices
-- 🌱 I’m also currently working and learning Spring Boot, JSP , React, Java , Hibernate , SQL , HQL and Python.
+* **Programming Languages & Frameworks:**
+    * Machine Learning in Python
+    * Data Analysis in Python
+    * React
+    * Typescript
+    * Spring Boot & Microservices
+* **Technologies:**
+    * Spring Boot (Java framework for rapid app development)
+    * JUnit & Integration Tests (Ensuring code quality)
+    * Docker & Docker Compose (Containerization & deployment)
+    * CI/CD (GitHub Actions) (Automated builds & deployments)
+    * Prometheus & Grafana (Monitoring & application health)
+    * Python (Versatile language for various purposes)
+
 - 🔨 Here is my resume [Link](https://shorturl.at/G4TP4)  
 
 ## 📕 Latest Blog Posts
