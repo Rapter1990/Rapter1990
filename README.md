@@ -39,7 +39,7 @@
     * Python: Versatile language for various purposes
     * Zipkin (Distributed tracing system)
 
-- 🔨 Here is my resume [Link](https://shorturl.at/G4TP4)  
+- 🔨 Here is my resume [Link](https://shorturl.at/CXIxR)  
 
 ## 📕 Latest Blog Posts
 
