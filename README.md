@@ -36,7 +36,6 @@
     * Redis: In-memory data store
     * Database: PostgreSQL, MySQL (Relational database), MongoDB (NoSQL database)
     * Apache Kafka: Distributed streaming platform
-    * Python: Versatile language for various purposes
     * Zipkin (Distributed tracing system)
 
 - 🔨 Here is my resume [Link](https://shorturl.at/CXIxR)  
