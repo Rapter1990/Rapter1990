@@ -43,11 +43,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Case Study - Flight Search Api](https://github.com/Rapter1990/flightsearchapi)
 - [Case Study - To Do List in Spring Boot with Couchbase](https://github.com/Rapter1990/todowithcouchbase)
 - [Go Sample Examples](https://github.com/Rapter1990/go_sample_examples) 
 - [Case Study - Foreign Exchange Example](https://github.com/Rapter1990/foreignexchangeexample)
 - [Case Study - Courier Tracking](https://github.com/Rapter1990/couriertracking)
-- [Spring Boot Microservices with JWT](https://github.com/Rapter1990/springbootmicroserviceswithsecurity)
 <!-- BLOG-POST-LIST:END -->
 
 
