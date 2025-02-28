@@ -43,11 +43,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Case Study - Pdf Comparison](https://github.com/Rapter1990/pdfcompare)
 - [Case Study - Weather Api Analysis](https://github.com/Rapter1990/weatherapianalysis)
 - [Case Study - Flight Search Api](https://github.com/Rapter1990/flightsearchapi)
 - [Case Study - To Do List in Spring Boot with Couchbase](https://github.com/Rapter1990/todowithcouchbase)
 - [Go Sample Examples](https://github.com/Rapter1990/go_sample_examples) 
-- [Case Study - Foreign Exchange Example](https://github.com/Rapter1990/foreignexchangeexample)
 <!-- BLOG-POST-LIST:END -->
 
 
