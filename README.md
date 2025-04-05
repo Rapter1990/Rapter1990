@@ -88,7 +88,7 @@
     <td id="1x0" valign="top">
       <strong>Backend &amp; API Tools</strong><br>
       <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring" width="40" height="40"/>
-      <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" height="40"/>
+      <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/postman/postman-original.svg" alt="Postman" width="40" height="40"/>
       <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/swagger/swagger-original.svg" alt="Swagger" width="40" height="40"/>
     </td>
     <!-- 1x1: Version Control -->
