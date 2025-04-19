@@ -43,11 +43,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Case Study - Car Service](https://github.com/Rapter1990/carservice)
 - [Case Study - Football Team Api with Hexagonal Architecture](https://github.com/Rapter1990/footballteamapi)
 - [Case Study - Work Permission](https://github.com/Rapter1990/workpermission) 
 - [Case Study - Pdf Comparison](https://github.com/Rapter1990/pdfcompare)
 - [Case Study - Weather Api Analysis](https://github.com/Rapter1990/weatherapianalysis)
-- [Case Study - Flight Search Api](https://github.com/Rapter1990/flightsearchapi)
 <!-- BLOG-POST-LIST:END -->
 
 
