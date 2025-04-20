@@ -38,7 +38,7 @@
     * Apache Kafka: Distributed streaming platform
     * Zipkin (Distributed tracing system)
 
-- 🔨 Here is my resume [Link](https://shorturl.at/CXIxR)  
+- 🔨 Here is my resume [Link](https://shorturl.at/BaoKs)  
 
 ## 📕 Latest Blog Posts
 
