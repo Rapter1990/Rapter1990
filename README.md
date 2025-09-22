@@ -43,11 +43,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Case Study - Github Screenshot Mailer](https://github.com/Rapter1990/githubscreenshotmailer)
 - [Dev Setup for Backend Developers (macOS)](https://github.com/Rapter1990/dev-setup-for-backend-developers)
 - [Case Study - Live Betting](https://github.com/Rapter1990/livebetting)
 - [Case Study - Link Converter](https://github.com/Rapter1990/linkconverter)
 - [Case Study - Car Service](https://github.com/Rapter1990/carservice)
-- [Case Study - Football Team Api with Hexagonal Architecture](https://github.com/Rapter1990/footballteamapi)
 <!-- BLOG-POST-LIST:END -->
 
 
