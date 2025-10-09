@@ -40,15 +40,150 @@
 
 - 🔨 Here is my resume [Link](https://shorturl.at/BaoKs)  
 
-## 📕 Latest Blog Posts
+## 🗂️ Latest Projects & 📕 Latest Blog Posts
 
-<!-- BLOG-POST-LIST:START -->
-- [Case Study - Crypto Exchange Api](https://github.com/Rapter1990/cryptoexchangeapi)
-- [Case Study - Github Screenshot Mailer](https://github.com/Rapter1990/githubscreenshotmailer)
-- [Dev Setup for Backend Developers (macOS)](https://github.com/Rapter1990/dev-setup-for-backend-developers)
-- [Case Study - Live Betting](https://github.com/Rapter1990/livebetting)
-- [Case Study - Link Converter](https://github.com/Rapter1990/linkconverter)
-<!-- BLOG-POST-LIST:END -->
+<table style="width:100%; border-collapse:collapse;">
+  <thead>
+    <tr>
+      <th colspan="4" style="border:1px solid #ddd; padding:8px; text-align:left;">Latest Projects</th>
+      <th colspan="4" style="border:1px solid #ddd; padding:8px; text-align:left;">Latest Blog Posts</th>
+    </tr>
+    <tr>
+      <!-- Projects subheaders -->
+      <th style="border:1px solid #ddd; padding:6px; width:5rem;">#</th>
+      <th style="border:1px solid #ddd; padding:6px; width:10rem;">Title</th>
+      <th style="border:1px solid #ddd; padding:6px; width:8rem;">Link</th>
+      <th style="border:1px solid #ddd; padding:6px; width:5rem;">Date</th>
+      <!-- Blog subheaders -->
+      <th style="border:1px solid #ddd; padding:6px; width:5rem;">#</th>
+      <th style="border:1px solid #ddd; padding:6px; width:10rem;">Title</th>
+      <th style="border:1px solid #ddd; padding:6px; width:8rem;">Link</th>
+      <th style="border:1px solid #ddd; padding:6px; width:5rem;">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <!-- Projects -->
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        Crypto Exchange API
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://github.com/Rapter1990/cryptoexchangeapi" target="_blank" rel="noopener">View</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        October, 2025
+      </td>
+      <!-- Blog Posts -->
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        Pagination, Filtering, and Sorting in Spring Boot with JPA Specifications
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://medium.com/@sngermiyanoglu/pagination-filtering-and-sorting-in-spring-boot-with-jpa-specifications-060423fd3405" target="_blank" rel="noopener">Read</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        October, 2025
+      </td>
+    </tr>
+    <tr>
+      <!-- Projects -->
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        Github Screenshot Mailer
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://github.com/Rapter1990/githubscreenshotmailer" target="_blank" rel="noopener">View</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        September, 2025
+      </td>
+      <!-- Blog Posts -->
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        Monitoring Spring Boot with Prometheus, Grafana and Alertmanager on Docker and Kubernetes
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://medium.com/@sngermiyanoglu/monitoring-spring-boot-with-prometheus-grafana-and-alertmanager-on-docker-and-kubernetes-958dff39e401" target="_blank" rel="noopener">Read</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        August, 2025
+      </td>
+    </tr>
+    <tr>
+      <!-- Projects -->
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">3</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        Dev Setup for Backend Developers (macOS)
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://github.com/Rapter1990/dev-setup-for-backend-developers" target="_blank" rel="noopener">View</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        August, 2025
+      </td>
+      <!-- Blog Posts -->
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">3</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        Managing Schema and Data Migration in Spring Boot using Flyway
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://medium.com/@sngermiyanoglu/managing-schema-and-data-migration-in-spring-boot-using-flyway-a2e505971280" target="_blank" rel="noopener">Read</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        August, 2025
+      </td>
+    </tr>
+    <tr>
+      <!-- Projects -->
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">4</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        Case Study - Live Betting
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://github.com/Rapter1990/livebetting" target="_blank" rel="noopener">View</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        July, 2025
+      </td>
+      <!-- Blog Posts -->
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">4</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        Managing Schema and Data Migration in Spring Boot using Liquibase
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://medium.com/@sngermiyanoglu/managing-schema-and-data-migration-in-spring-boot-using-liquibase-c771a710072e" target="_blank" rel="noopener">Read</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        August, 2025
+      </td>
+    </tr>
+    <tr>
+      <!-- Projects -->
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">5</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        Case Study - Link Converter
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://github.com/Rapter1990/linkconverter" target="_blank" rel="noopener">View</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        July, 2025
+      </td>
+      <!-- Blog Posts -->
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">5</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        Monitoring Spring Boot Code Quality with SonarQube on Docker and Kubernetes
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://medium.com/@sngermiyanoglu/monitoring-spring-boot-code-quality-with-sonarqube-on-docker-and-kubernetes-e7b9f6feb75c" target="_blank" rel="noopener">Read</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        August, 2025
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## 📬 Get in touch
