@@ -31,33 +31,6 @@
       <td style="border:1px solid #ddd; padding:6px;">🌝 Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="20" alt="wave"> I’m <strong>Sercan Noyan Germiyanoğlu</strong> 💻 from Turkey.</td>
    </tr>
    <tr>
-      <td style="border:1px solid #ddd; padding:6px;">Programming Languages &amp; Frameworks</td>
-      <td style="border:1px solid #ddd; padding:6px;">
-         <ul style="margin:0 0 0 18px;">
-            <li>React</li>
-            <li>Spring Boot &amp; Microservices</li>
-         </ul>
-      </td>
-   </tr>
-   <tr>
-      <td style="border:1px solid #ddd; padding:6px;">Technologies</td>
-      <td style="border:1px solid #ddd; padding:6px;">
-         <ul style="margin:0 0 0 18px;">
-            <li>Spring Boot (Java framework for rapid app development)</li>
-            <li>JUnit &amp; Integration Tests (Ensuring code quality)</li>
-            <li>Docker &amp; Docker Compose (Containerization &amp; deployment)</li>
-            <li>CI/CD (GitHub Actions) — Automated builds &amp; deployments</li>
-            <li>Prometheus &amp; Grafana (Monitoring &amp; application health)</li>
-            <li>Python (Versatile language for various purposes)</li>
-            <li>Git — Version control system</li>
-            <li>Redis — In-memory data store</li>
-            <li>Databases — PostgreSQL, MySQL (Relational), MongoDB (NoSQL)</li>
-            <li>Apache Kafka — Distributed streaming platform</li>
-            <li>Zipkin — Distributed tracing system</li>
-         </ul>
-      </td>
-   </tr>
-   <tr>
       <td style="border:1px solid #ddd; padding:6px;">Resume</td>
       <td style="border:1px solid #ddd; padding:6px;">
           <ul style="margin:0 0 0 18px;">
