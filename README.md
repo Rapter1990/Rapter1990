@@ -18,27 +18,54 @@
     </a>
 </p>
 
+
 ## 📖 About Me
 
-- 🌝 Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="30px"> I'm Sercan Noyan Germiyanoğlu 💻 from Turkey.
-
-* **Programming Languages & Frameworks:**
-    * React
-    * Spring Boot & Microservices
-* **Technologies:**
-    * Spring Boot (Java framework for rapid app development)
-    * JUnit & Integration Tests (Ensuring code quality)
-    * Docker & Docker Compose (Containerization & deployment)
-    * CI/CD (GitHub Actions) (Automated builds & deployments)
-    * Prometheus & Grafana (Monitoring & application health)
-    * Python (Versatile language for various purposes)
-    * Git: Version control system
-    * Redis: In-memory data store
-    * Database: PostgreSQL, MySQL (Relational database), MongoDB (NoSQL database)
-    * Apache Kafka: Distributed streaming platform
-    * Zipkin (Distributed tracing system)
-
-- 🔨 Here is my resume [Link](https://shorturl.at/BaoKs)  
+<table style="width:100%; border-collapse:collapse;">
+   <tr>
+      <th style="border:1px solid #ddd; padding:6px; text-align:left;">Field</th>
+      <th style="border:1px solid #ddd; padding:6px; text-align:left;">Details</th>
+   </tr>
+   <tr>
+      <td style="border:1px solid #ddd; padding:6px;">Introduce Myself</td>
+      <td style="border:1px solid #ddd; padding:6px;">🌝 Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="20" alt="wave"> I’m <strong>Sercan Noyan Germiyanoğlu</strong> 💻 from Turkey.</td>
+   </tr>
+   <tr>
+      <td style="border:1px solid #ddd; padding:6px;">Programming Languages &amp; Frameworks</td>
+      <td style="border:1px solid #ddd; padding:6px;">
+         <ul style="margin:0 0 0 18px;">
+            <li>React</li>
+            <li>Spring Boot &amp; Microservices</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td style="border:1px solid #ddd; padding:6px;">Technologies</td>
+      <td style="border:1px solid #ddd; padding:6px;">
+         <ul style="margin:0 0 0 18px;">
+            <li>Spring Boot (Java framework for rapid app development)</li>
+            <li>JUnit &amp; Integration Tests (Ensuring code quality)</li>
+            <li>Docker &amp; Docker Compose (Containerization &amp; deployment)</li>
+            <li>CI/CD (GitHub Actions) — Automated builds &amp; deployments</li>
+            <li>Prometheus &amp; Grafana (Monitoring &amp; application health)</li>
+            <li>Python (Versatile language for various purposes)</li>
+            <li>Git — Version control system</li>
+            <li>Redis — In-memory data store</li>
+            <li>Databases — PostgreSQL, MySQL (Relational), MongoDB (NoSQL)</li>
+            <li>Apache Kafka — Distributed streaming platform</li>
+            <li>Zipkin — Distributed tracing system</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td style="border:1px solid #ddd; padding:6px;">Resume</td>
+      <td style="border:1px solid #ddd; padding:6px;">
+          <ul style="margin:0 0 0 18px;">
+            <li><a href="https://shorturl.at/BaoKs" target="_blank" rel="noopener">View</a></li>
+         </ul>
+      </td>
+   </tr>
+</table>
 
 ## 🗂️ Latest Projects & 📕 Latest Blog Posts
 
