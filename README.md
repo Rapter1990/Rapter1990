@@ -188,16 +188,50 @@
 
 ## 📬 Get in touch
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/sercan-noyan-germiyano%C4%9Flu-1918ba16b/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="sercan-noyan-germiyanoğlu-1918ba16b/" height="30" width="30"></a>&nbsp;&nbsp;
-  <a href="https://www.kaggle.com/flagnoyan/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/kaggle.svg" alt="sercan-noyan-germiyanoğlu-kaggle" height="30" width="30"></a>&nbsp;&nbsp;
-  <a href="mailto:sngermiyanoglu@gmail.com"><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/gmail.svg"></a>&nbsp;&nbsp;
-  <a href="mailto:sngermiyanoglu@hotmail.com"><img height="30" src="https://github.com/Rapter1990/Rapter1990/blob/master/outlook.svg"></a>&nbsp;&nbsp;
-  <a href="https://stackoverflow.com/users/5719229/sercan-noyan-germiyano%c4%9flu"><img height="30" src="https://github.com/Rapter1990/Rapter1990/blob/master/stackoverflow.svg"></a>&nbsp;&nbsp;
-  <a href="https://medium.com/@sngermiyanoglu"><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg"></a>&nbsp;&nbsp;
-</p>
-
-
+<table style="width:100%; border-collapse:collapse; table-layout:fixed;">
+  <tbody>
+    <tr>
+      <td style="border:1px solid #ddd; padding:10px; text-align:center;">
+        <a href="https://www.linkedin.com/in/sercan-noyan-germiyano%C4%9Flu-1918ba16b/" target="_blank" rel="noopener">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="LinkedIn" height="30" />
+        </a>
+      </td>
+      <td style="border:1px solid #ddd; padding:10px; text-align:center;">
+        <a href="https://www.kaggle.com/flagnoyan/" target="_blank" rel="noopener">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/kaggle.svg" alt="Kaggle" height="30" />
+        </a>
+      </td>
+      <td style="border:1px solid #ddd; padding:10px; text-align:center;">
+        <a href="mailto:sngermiyanoglu@gmail.com">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/gmail.svg" alt="Gmail" height="30" />
+        </a>
+      </td>
+      <td style="border:1px solid #ddd; padding:10px; text-align:center;">
+        <a href="mailto:sngermiyanoglu@hotmail.com">
+          <img src="https://github.com/Rapter1990/Rapter1990/blob/master/outlook.svg" alt="Outlook" height="30" />
+        </a>
+      </td>
+      <td style="border:1px solid #ddd; padding:10px; text-align:center;">
+        <a href="https://stackoverflow.com/users/5719229/sercan-noyan-germiyano%c4%9flu" target="_blank" rel="noopener">
+          <img src="https://github.com/Rapter1990/Rapter1990/blob/master/stackoverflow.svg" alt="Stack Overflow" height="30" />
+        </a>
+      </td>
+      <td style="border:1px solid #ddd; padding:10px; text-align:center;">
+        <a href="https://medium.com/@sngermiyanoglu" target="_blank" rel="noopener">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="Medium" height="30" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ddd; padding:8px; text-align:center; font-weight:600;">LinkedIn</td>
+      <td style="border:1px solid #ddd; padding:8px; text-align:center; font-weight:600;">Kaggle</td>
+      <td style="border:1px solid #ddd; padding:8px; text-align:center; font-weight:600;">Gmail</td>
+      <td style="border:1px solid #ddd; padding:8px; text-align:center; font-weight:600;">Outlook</td>
+      <td style="border:1px solid #ddd; padding:8px; text-align:center; font-weight:600;">Stack Overflow</td>
+      <td style="border:1px solid #ddd; padding:8px; text-align:center; font-weight:600;">Medium</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 📚 Language and Tools
 <table width="100%">
