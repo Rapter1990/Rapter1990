@@ -185,53 +185,53 @@
   </tbody>
 </table>
 
-
 ## 📬 Get in touch
 
-<table style="width:100%; border-collapse:collapse; table-layout:fixed;">
+<table>
   <tbody>
     <tr>
-      <td style="border:1px solid #ddd; padding:10px; text-align:center;">
-        <a href="https://www.linkedin.com/in/sercan-noyan-germiyano%C4%9Flu-1918ba16b/" target="_blank" rel="noopener">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="LinkedIn" height="30" />
+      <td align="center">
+        <a href="https://www.linkedin.com/in/sercan-noyan-germiyano%C4%9Flu-1918ba16b/" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
         </a>
       </td>
-      <td style="border:1px solid #ddd; padding:10px; text-align:center;">
-        <a href="https://www.kaggle.com/flagnoyan/" target="_blank" rel="noopener">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/kaggle.svg" alt="Kaggle" height="30" />
+      <td align="center">
+        <a href="https://www.kaggle.com/flagnoyan/" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/kaggle.svg" alt="Kaggle" width="30" height="30">
         </a>
       </td>
-      <td style="border:1px solid #ddd; padding:10px; text-align:center;">
+      <td align="center">
         <a href="mailto:sngermiyanoglu@gmail.com">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/gmail.svg" alt="Gmail" height="30" />
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/gmail.svg" alt="Gmail" width="30" height="30">
         </a>
       </td>
-      <td style="border:1px solid #ddd; padding:10px; text-align:center;">
+      <td align="center">
         <a href="mailto:sngermiyanoglu@hotmail.com">
-          <img src="https://github.com/Rapter1990/Rapter1990/blob/master/outlook.svg" alt="Outlook" height="30" />
+          <img src="https://github.com/Rapter1990/Rapter1990/blob/master/outlook.svg" alt="Outlook" width="30" height="30">
         </a>
       </td>
-      <td style="border:1px solid #ddd; padding:10px; text-align:center;">
-        <a href="https://stackoverflow.com/users/5719229/sercan-noyan-germiyano%c4%9flu" target="_blank" rel="noopener">
-          <img src="https://github.com/Rapter1990/Rapter1990/blob/master/stackoverflow.svg" alt="Stack Overflow" height="30" />
+      <td align="center">
+        <a href="https://stackoverflow.com/users/5719229/sercan-noyan-germiyano%c4%9flu" target="_blank" rel="noopener noreferrer">
+          <img src="https://github.com/Rapter1990/Rapter1990/blob/master/stackoverflow.svg" alt="Stack Overflow" width="30" height="30">
         </a>
       </td>
-      <td style="border:1px solid #ddd; padding:10px; text-align:center;">
-        <a href="https://medium.com/@sngermiyanoglu" target="_blank" rel="noopener">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="Medium" height="30" />
+      <td align="center">
+        <a href="https://medium.com/@sngermiyanoglu" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="Medium" width="30" height="30">
         </a>
       </td>
     </tr>
     <tr>
-      <td style="border:1px solid #ddd; padding:8px; text-align:center; font-weight:600;">LinkedIn</td>
-      <td style="border:1px solid #ddd; padding:8px; text-align:center; font-weight:600;">Kaggle</td>
-      <td style="border:1px solid #ddd; padding:8px; text-align:center; font-weight:600;">Gmail</td>
-      <td style="border:1px solid #ddd; padding:8px; text-align:center; font-weight:600;">Outlook</td>
-      <td style="border:1px solid #ddd; padding:8px; text-align:center; font-weight:600;">Stack Overflow</td>
-      <td style="border:1px solid #ddd; padding:8px; text-align:center; font-weight:600;">Medium</td>
+      <td align="center">LinkedIn</td>
+      <td align="center"<strong>Kaggle</td>
+      <td align="center">Gmail</td>
+      <td align="center">Outlook</td>
+      <td align="center">Stack Overflow</td>
+      <td align="center">Medium</td>
     </tr>
   </tbody>
 </table>
+
 
 ## 📚 Language and Tools
 <table width="100%">
