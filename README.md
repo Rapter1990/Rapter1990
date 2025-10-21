@@ -90,7 +90,7 @@
       <!-- Projects -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Github Screenshot Mailer
+        Case Study - Github Screenshot Mailer
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
         <a href="https://github.com/Rapter1990/githubscreenshotmailer" target="_blank" rel="noopener">View</a>
