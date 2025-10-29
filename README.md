@@ -66,10 +66,10 @@
       <!-- Projects -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Crypto Exchange API
+        Case Study - Kubernetes Yml File Comparison
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/cryptoexchangeapi" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/kubernetesymlcompare" target="_blank" rel="noopener">View</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
         October, 2025
@@ -90,14 +90,14 @@
       <!-- Projects -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Case Study - Github Screenshot Mailer
+        Crypto Exchange API
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/githubscreenshotmailer" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/cryptoexchangeapi" target="_blank" rel="noopener">View</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        September, 2025
-      </td>
+        October, 2025
+      </td>  
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
@@ -114,13 +114,13 @@
       <!-- Projects -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">3</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Dev Setup for Backend Developers (macOS)
+        Case Study - Github Screenshot Mailer
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/dev-setup-for-backend-developers" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/githubscreenshotmailer" target="_blank" rel="noopener">View</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        August, 2025
+        September, 2025
       </td>
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
@@ -138,14 +138,14 @@
       <!-- Projects -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">4</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Case Study - Live Betting
+        Dev Setup for Backend Developers (macOS)
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/livebetting" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/dev-setup-for-backend-developers" target="_blank" rel="noopener">View</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        July, 2025
-      </td>
+        August, 2025
+      </td>  
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">3</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
@@ -162,10 +162,10 @@
       <!-- Projects -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">5</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Case Study - Link Converter
+        Case Study - Live Betting
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/linkconverter" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/livebetting" target="_blank" rel="noopener">View</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
         July, 2025
