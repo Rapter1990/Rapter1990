@@ -162,13 +162,13 @@
       <!-- Projects -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">5</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Dev Setup for Backend Developers (macOS)
+        Case Study - Github Screenshot Mailer
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/dev-setup-for-backend-developers" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/githubscreenshotmailer" target="_blank" rel="noopener">View</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        August, 2025
+        September, 2025
       </td>  
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">5</td>
