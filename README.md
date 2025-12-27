@@ -66,13 +66,13 @@
       <!-- Projects -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        CDC Debezium Outbox (Kafka CDC Outbox Pattern)
+        Case Study - Geospatial Location with Redis in Spring Boot
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/cdc-debezium-outbox" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/geospatial-location-with-redis" target="_blank" rel="noopener">View</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        November, 2025
+        December, 2025
       </td>
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
@@ -90,10 +90,10 @@
       <!-- Projects -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Case Study - XLSX ZIP to TXT ZIP Conversion
+        CDC Debezium Outbox (Kafka CDC Outbox Pattern)
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/xlsxziptotxtzip" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/cdc-debezium-outbox" target="_blank" rel="noopener">View</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
         November, 2025
@@ -114,13 +114,13 @@
       <!-- Projects -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">3</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Case Study - Kubernetes Yml File Comparison
+        Case Study - XLSX ZIP to TXT ZIP Conversion
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/kubernetesymlcompare" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/xlsxziptotxtzip" target="_blank" rel="noopener">View</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        October, 2025
+        November, 2025
       </td>
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
@@ -138,10 +138,10 @@
       <!-- Projects -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">4</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Crypto Exchange API
+        Case Study - Kubernetes Yml File Comparison
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/cryptoexchangeapi" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/kubernetesymlcompare" target="_blank" rel="noopener">View</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
         October, 2025
@@ -162,13 +162,13 @@
       <!-- Projects -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">5</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Case Study - Github Screenshot Mailer
+        Crypto Exchange API
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/githubscreenshotmailer" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/cryptoexchangeapi" target="_blank" rel="noopener">View</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        September, 2025
+        October, 2025
       </td>
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">4</td>
