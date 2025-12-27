@@ -99,7 +99,7 @@
         November, 2025
       </td>
       <!-- Blog Posts -->
-      <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
         Interpreter Pattern in Spring Boot — Build a Mini Query Language for Product Search
       </td>
@@ -123,7 +123,7 @@
         November, 2025
       </td>
       <!-- Blog Posts -->
-      <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">3</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
         Dynamic Request Bodies in Spring Boot (With One Clean Endpoint)
       </td>
@@ -147,7 +147,7 @@
         October, 2025
       </td>
       <!-- Blog Posts -->
-      <td style="border:1px solid #ddd; padding:6px; text-align:center;">3</td>
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">4</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
         Pagination, Filtering, and Sorting in Spring Boot with JPA Specifications
       </td>
@@ -171,7 +171,7 @@
         October, 2025
       </td>
       <!-- Blog Posts -->
-      <td style="border:1px solid #ddd; padding:6px; text-align:center;">4</td>
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">5</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
         Monitoring Spring Boot with Prometheus, Grafana and Alertmanager on Docker and Kubernetes
       </td>
