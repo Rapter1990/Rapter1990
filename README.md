@@ -77,13 +77,13 @@
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Chain of Responsibility in Spring Boot — Build a Order Validation Process
+        Flyweight Pattern in Spring Boot — Render SVG Icons Efficiently (With Caching)
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://medium.com/@sngermiyanoglu/chain-of-responsibility-in-spring-boot-build-a-order-validation-process-389788e13f4f" target="_blank" rel="noopener">Read</a>
+        <a href="https://sngermiyanoglu.medium.com/flyweight-pattern-in-spring-boot-render-svg-icons-efficiently-with-caching-1455370b6536" target="_blank" rel="noopener">Read</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        December, 2025
+        January, 2026
       </td>
     </tr>
     <tr>
@@ -101,13 +101,13 @@
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Interpreter Pattern in Spring Boot — Build a Mini Query Language for Product Search
+        Chain of Responsibility in Spring Boot — Build a Order Validation Process
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://sngermiyanoglu.medium.com/interpreter-pattern-in-spring-boot-build-a-mini-query-language-for-product-search-1342a46dfb3a" target="_blank" rel="noopener">Read</a>
+        <a href="https://medium.com/@sngermiyanoglu/chain-of-responsibility-in-spring-boot-build-a-order-validation-process-389788e13f4f" target="_blank" rel="noopener">Read</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        November, 2025
+        December, 2025
       </td>  
     </tr>
     <tr>
@@ -125,14 +125,14 @@
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">3</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Dynamic Request Bodies in Spring Boot (With One Clean Endpoint)
+        Interpreter Pattern in Spring Boot — Build a Mini Query Language for Product Search
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://medium.com/@sngermiyanoglu/dynamic-request-bodies-in-spring-boot-with-one-clean-endpoint-4e9a025ffdf7" target="_blank" rel="noopener">Read</a>
+        <a href="https://sngermiyanoglu.medium.com/interpreter-pattern-in-spring-boot-build-a-mini-query-language-for-product-search-1342a46dfb3a" target="_blank" rel="noopener">Read</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        October, 2025
-      </td>  
+        November, 2025
+      </td>
     </tr>
     <tr>
       <!-- Projects -->
@@ -149,10 +149,10 @@
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">4</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Pagination, Filtering, and Sorting in Spring Boot with JPA Specifications
+        Dynamic Request Bodies in Spring Boot (With One Clean Endpoint)
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://medium.com/@sngermiyanoglu/pagination-filtering-and-sorting-in-spring-boot-with-jpa-specifications-060423fd3405" target="_blank" rel="noopener">Read</a>
+        <a href="https://medium.com/@sngermiyanoglu/dynamic-request-bodies-in-spring-boot-with-one-clean-endpoint-4e9a025ffdf7" target="_blank" rel="noopener">Read</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
         October, 2025
@@ -173,14 +173,14 @@
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">5</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Monitoring Spring Boot with Prometheus, Grafana and Alertmanager on Docker and Kubernetes
+        Pagination, Filtering, and Sorting in Spring Boot with JPA Specifications
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://medium.com/@sngermiyanoglu/monitoring-spring-boot-with-prometheus-grafana-and-alertmanager-on-docker-and-kubernetes-958dff39e401" target="_blank" rel="noopener">Read</a>
+        <a href="https://medium.com/@sngermiyanoglu/pagination-filtering-and-sorting-in-spring-boot-with-jpa-specifications-060423fd3405" target="_blank" rel="noopener">Read</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        August, 2025
-      </td>  
+        October, 2025
+      </td> 
     </tr>
   </tbody>
 </table>
