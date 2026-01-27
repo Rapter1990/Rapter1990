@@ -185,6 +185,52 @@
   </tbody>
 </table>
 
+## 📺 Past Live Streams
+
+<table style="width:100%; border-collapse:collapse;">
+  <thead>
+    <tr>
+      <th colspan="4" style="border:1px solid #ddd; padding:8px; text-align:left;">Past Live Streams</th>
+    </tr>
+    <tr>
+      <th style="border:1px solid #ddd; padding:6px; width:5rem;">#</th>
+      <th style="border:1px solid #ddd; padding:6px;">Title</th>
+      <th style="border:1px solid #ddd; padding:6px; width:8rem;">Link</th>
+      <th style="border:1px solid #ddd; padding:6px; width:10rem;">Date</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        Canlı Mülakat Simülasyonu- HSD İnönü
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://www.youtube.com/watch?v=94NABrovs84" target="_blank" rel="noopener">Watch</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        January 20, 2026
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        🎙️ Sektörel Sohbetler | Bölüm 5 - HSD İnönü
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://www.youtube.com/watch?v=94NABrovs84" target="_blank" rel="noopener">Watch</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        December 29, 2025
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
 
 ## 📬 Get in touch
 
