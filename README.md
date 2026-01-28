@@ -207,7 +207,7 @@
         Canlı Mülakat Simülasyonu- HSD İnönü
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://www.youtube.com/watch?v=94NABrovs84" target="_blank" rel="noopener">Watch</a>
+        <a href="https://www.youtube.com/watch?v=_sghzYk1x6g" target="_blank" rel="noopener">Watch</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
         January 20, 2026
