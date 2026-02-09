@@ -204,6 +204,18 @@
     <tr>
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
+        Blueprint Talks -HSD Balıkesir
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        <a href="https://www.youtube.com/watch?v=CcQc_v3LK6g" target="_blank" rel="noopener">Watch</a>
+      </td>
+      <td style="border:1px solid #ddd; padding:6px;">
+        February 9, 2026
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
         Canlı Mülakat Simülasyonu- HSD İnönü
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
