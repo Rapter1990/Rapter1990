@@ -226,7 +226,7 @@
       </td>
     </tr>
     <tr>
-      <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
+      <td style="border:1px solid #ddd; padding:6px; text-align:center;">3</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
         🎙️ Sektörel Sohbetler | Bölüm 5 - HSD İnönü
       </td>
