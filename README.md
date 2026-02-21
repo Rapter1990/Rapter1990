@@ -77,10 +77,10 @@
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        PostgreSQL Data Migration on Minikube running on Docker with a Kubernetes CronJob
+        Jenkins + Spring Boot — Build, Test, Dockerize, and Push to Docker Hub
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://sngermiyanoglu.medium.com/postgresql-data-migration-on-minikube-running-on-docker-with-a-kubernetes-cronjob-ececa286cf40" target="_blank" rel="noopener">Read</a>
+        <a href="https://medium.com/@sngermiyanoglu/jenkins-spring-boot-build-test-dockerize-and-push-to-docker-hub-a178fefb099b" target="_blank" rel="noopener">Read</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
         February, 2026
@@ -101,13 +101,13 @@
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Flyweight Pattern in Spring Boot — Render SVG Icons Efficiently (With Caching)
+        PostgreSQL Data Migration on Minikube running on Docker with a Kubernetes CronJob
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://sngermiyanoglu.medium.com/flyweight-pattern-in-spring-boot-render-svg-icons-efficiently-with-caching-1455370b6536" target="_blank" rel="noopener">Read</a>
+        <a href="https://sngermiyanoglu.medium.com/postgresql-data-migration-on-minikube-running-on-docker-with-a-kubernetes-cronjob-ececa286cf40" target="_blank" rel="noopener">Read</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        January, 2026
+        February, 2026
       </td>  
     </tr>
     <tr>
@@ -125,13 +125,13 @@
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">3</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Chain of Responsibility in Spring Boot — Build a Order Validation Process
+        Flyweight Pattern in Spring Boot — Render SVG Icons Efficiently (With Caching)
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://medium.com/@sngermiyanoglu/chain-of-responsibility-in-spring-boot-build-a-order-validation-process-389788e13f4f" target="_blank" rel="noopener">Read</a>
+        <a href="https://sngermiyanoglu.medium.com/flyweight-pattern-in-spring-boot-render-svg-icons-efficiently-with-caching-1455370b6536" target="_blank" rel="noopener">Read</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        December, 2025
+        January, 2026
       </td>
     </tr>
     <tr>
@@ -149,13 +149,13 @@
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">4</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Interpreter Pattern in Spring Boot — Build a Mini Query Language for Product Search
+        Chain of Responsibility in Spring Boot — Build a Order Validation Process
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://sngermiyanoglu.medium.com/interpreter-pattern-in-spring-boot-build-a-mini-query-language-for-product-search-1342a46dfb3a" target="_blank" rel="noopener">Read</a>
+        <a href="https://medium.com/@sngermiyanoglu/chain-of-responsibility-in-spring-boot-build-a-order-validation-process-389788e13f4f" target="_blank" rel="noopener">Read</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        November, 2025
+        December, 2025
       </td>  
     </tr>
     <tr>
@@ -173,13 +173,13 @@
       <!-- Blog Posts -->
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">5</td>
       <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Dynamic Request Bodies in Spring Boot (With One Clean Endpoint)
+        Interpreter Pattern in Spring Boot — Build a Mini Query Language for Product Search
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://medium.com/@sngermiyanoglu/dynamic-request-bodies-in-spring-boot-with-one-clean-endpoint-4e9a025ffdf7" target="_blank" rel="noopener">Read</a>
+        <a href="https://sngermiyanoglu.medium.com/interpreter-pattern-in-spring-boot-build-a-mini-query-language-for-product-search-1342a46dfb3a" target="_blank" rel="noopener">Read</a>
       </td>
       <td style="border:1px solid #ddd; padding:6px;">
-        October, 2025
+        November, 2025
       </td> 
     </tr>
   </tbody>
