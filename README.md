@@ -34,7 +34,7 @@
       <td style="border:1px solid #ddd; padding:6px;">Resume</td>
       <td style="border:1px solid #ddd; padding:6px;">
           <ul style="margin:0 0 0 18px;">
-            <li><a href="https://shorturl.at/FsIuH" target="_blank" rel="noopener">View</a></li>
+            <li><a href="https://shorturl.at/iXqJH" target="_blank" rel="noopener">View</a></li>
          </ul>
       </td>
    </tr>
