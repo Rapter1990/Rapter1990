@@ -41,7 +41,7 @@
 </table>
 
 ## 🗂️ Latest Projects & 📕 Latest Blog Posts
-
+<!-- START_LATEST_PROJECTS_AND_POSTS -->
 <table style="width:100%; border-collapse:collapse;">
   <thead>
     <tr>
@@ -184,6 +184,7 @@
     </tr>
   </tbody>
 </table>
+<!-- END_LATEST_PROJECTS_AND_POSTS -->
 
 ## 📺 Past Live Streams
 
