@@ -2,7 +2,7 @@ name: Update Latest Projects and Blog Posts
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # every day 06:00 UTC
+    - cron: "0 3 * * *"  # every day 03:00 UTC - runs at 06:00 Türkiye time
   workflow_dispatch:
 
 permissions:
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+      USERNAME_GITHUB: ${{ secrets.USERNAME_GITHUB }}
       PROFILE_REPO: ${{ secrets.PROFILE_REPO }}
       MEDIUM_USERNAME: ${{ secrets.MEDIUM_USERNAME }}
       README_PATH: ${{ secrets.README_PATH }}
@@ -37,7 +37,7 @@ jobs:
 
       - name: Show effective configuration
         run: |
-          echo "GITHUB_USERNAME=$GITHUB_USERNAME"
+          echo "USERNAME_GITHUB=USERNAME_GITHUB"
           echo "PROFILE_REPO=$PROFILE_REPO"
           echo "MEDIUM_USERNAME=$MEDIUM_USERNAME"
           echo "README_PATH=$README_PATH"
