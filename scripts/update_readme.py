@@ -31,8 +31,8 @@ def get_int_env(*names: str, default: int) -> int:
         raise ValueError(f"Environment variable for {names} must be an integer.") from exc
 
 
-GITHUB_USERNAME = get_first_env("GITHUB_USERNAME", "USERNAME_GITHUB", default="Rapter1990")
-PROFILE_REPO = get_first_env("PROFILE_REPO", default=GITHUB_USERNAME)
+USERNAME_GITHUB = get_first_env("USERNAME_GITHUB", "USERNAME_GITHUB", default="Rapter1990")
+PROFILE_REPO = get_first_env("PROFILE_REPO", default=USERNAME_GITHUB)
 MEDIUM_USERNAME = get_first_env("MEDIUM_USERNAME", default="")
 README_PATH = Path(get_first_env("README_PATH", default="README.md"))
 
@@ -111,7 +111,7 @@ def get_github_headers() -> dict[str, str]:
 
 def fetch_latest_projects() -> list[dict[str, str]]:
     url = (
-        f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
+        f"https://api.github.com/users/{USERNAME_GITHUB}/repos"
         f"?type=owner&sort=updated&direction=desc&per_page=100"
     )
 
@@ -291,7 +291,7 @@ def main() -> None:
         raise FileNotFoundError(f"{README_PATH} not found.")
 
     print("Configuration:")
-    print(f"  GITHUB_USERNAME = {GITHUB_USERNAME}")
+    print(f"  USERNAME_GITHUB = {USERNAME_GITHUB}")
     print(f"  PROFILE_REPO    = {PROFILE_REPO}")
     print(f"  MEDIUM_USERNAME = {MEDIUM_USERNAME or '(empty)'}")
     print(f"  README_PATH     = {README_PATH}")
