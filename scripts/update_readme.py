@@ -17,14 +17,14 @@ END_MARKER = "<!-- END_LATEST_PROJECTS_AND_POSTS -->"
 TABLE_STYLE = 'style="width:100%; border-collapse:collapse;"'
 TH_GROUP_STYLE = 'style="border:1px solid #ddd; padding:8px; text-align:left;"'
 TH_NUM_STYLE = 'style="border:1px solid #ddd; padding:6px; width:5rem;"'
-TH_TITLE_STYLE = 'style="border:1px solid #ddd; padding:6px; width:16rem;"'
+TH_TITLE_STYLE = 'style="border:1px solid #ddd; padding:6px; width:24rem;"'
 TH_LINK_STYLE = 'style="border:1px solid #ddd; padding:6px; width:8rem;"'
-TH_DATE_STYLE = 'style="border:1px solid #ddd; padding:6px; width:8rem;"'
+TH_DATE_STYLE = 'style="border:1px solid #ddd; padding:6px; width:10rem;"'
 
-TD_NUM_STYLE = 'style="border:1px solid #ddd; padding:6px; text-align:center;"'
-TD_TITLE_STYLE = 'style="border:1px solid #ddd; padding:6px; white-space:nowrap;"'
-TD_LINK_STYLE = 'style="border:1px solid #ddd; padding:6px;"'
-TD_DATE_STYLE = 'style="border:1px solid #ddd; padding:6px;"'
+TD_NUM_STYLE = 'style="border:1px solid #ddd; padding:6px; text-align:center; vertical-align:top;"'
+TD_TITLE_STYLE = 'style="border:1px solid #ddd; padding:6px; vertical-align:top; white-space:normal; word-break:break-word;"'
+TD_LINK_STYLE = 'style="border:1px solid #ddd; padding:6px; vertical-align:top;"'
+TD_DATE_STYLE = 'style="border:1px solid #ddd; padding:6px; vertical-align:top;"'
 
 
 def get_first_env(*names: str, default: str = "") -> str:
@@ -78,11 +78,6 @@ def clean_text(value: str | None) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
-def prettify_repo_name(repo_name: str) -> str:
-    words = repo_name.replace("_", " ").replace("-", " ").split()
-    return " ".join(word.capitalize() for word in words)
-
-
 def format_medium_date(pub_date: str) -> str:
     return parsedate_to_datetime(pub_date).strftime("%B %d, %Y")
 
@@ -118,9 +113,11 @@ def get_github_headers() -> dict[str, str]:
 
 
 def fetch_latest_projects() -> list[dict[str, str]]:
+    # Use CREATED order so "latest projects" means newest repos,
+    # but still display updated_at as the Date column.
     url = (
         f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
-        f"?type=owner&sort=updated&direction=desc&per_page=100"
+        f"?type=owner&sort=created&direction=desc&per_page=100"
     )
 
     repos = fetch_json(url, headers=get_github_headers())
@@ -138,8 +135,6 @@ def fetch_latest_projects() -> list[dict[str, str]]:
             continue
 
         description = clean_text(repo.get("description"))
-        title = description if description else prettify_repo_name(repo_name)
-
         updated_at = (
             repo.get("updated_at")
             or repo.get("pushed_at")
@@ -149,7 +144,8 @@ def fetch_latest_projects() -> list[dict[str, str]]:
 
         latest_projects.append(
             {
-                "title": title,
+                "repo_name": repo_name,
+                "description": description,
                 "link": clean_text(repo.get("html_url")),
                 "date": format_relative_github_date(updated_at) if updated_at else "",
             }
@@ -206,17 +202,30 @@ def build_empty_cells() -> str:
     )
 
 
+def build_project_title_html(project: dict[str, str]) -> str:
+    repo_name = html.escape(project["repo_name"])
+    description = html.escape(project["description"])
+
+    if description:
+        return (
+            f'<div><strong>{repo_name}</strong></div>'
+            f'<div style="margin-top:4px; color:#555;">{description}</div>'
+        )
+
+    return f"<strong>{repo_name}</strong>"
+
+
 def build_project_cells(index: int, project: dict[str, str] | None) -> str:
     if not project:
         return build_empty_cells()
 
-    title = html.escape(project["title"])
+    title_html = build_project_title_html(project)
     link = html.escape(project["link"], quote=True)
     date = html.escape(project["date"])
 
     return (
         f"<td {TD_NUM_STYLE}>{index}</td>"
-        f"<td {TD_TITLE_STYLE}>{title}</td>"
+        f"<td {TD_TITLE_STYLE}>{title_html}</td>"
         f'<td {TD_LINK_STYLE}><a href="{link}" target="_blank" rel="noopener noreferrer">View</a></td>'
         f"<td {TD_DATE_STYLE}>{date}</td>"
     )
