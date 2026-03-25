@@ -242,7 +242,7 @@
     </tr>
     <tr>
       <td align="center">LinkedIn</td>
-      <td align="center"<strong>Kaggle</td>
+      <td align="center">Kaggle</td>
       <td align="center">Gmail</td>
       <td align="center">Outlook</td>
       <td align="center">Stack Overflow</td>
