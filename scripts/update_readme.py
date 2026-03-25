@@ -14,6 +14,18 @@ from urllib.request import Request, urlopen
 START_MARKER = "<!-- START_LATEST_PROJECTS_AND_POSTS -->"
 END_MARKER = "<!-- END_LATEST_PROJECTS_AND_POSTS -->"
 
+TABLE_STYLE = 'style="width:100%; border-collapse:collapse;"'
+TH_GROUP_STYLE = 'style="border:1px solid #ddd; padding:8px; text-align:left;"'
+TH_NUM_STYLE = 'style="border:1px solid #ddd; padding:6px; width:5rem;"'
+TH_TITLE_STYLE = 'style="border:1px solid #ddd; padding:6px; width:16rem;"'
+TH_LINK_STYLE = 'style="border:1px solid #ddd; padding:6px; width:8rem;"'
+TH_DATE_STYLE = 'style="border:1px solid #ddd; padding:6px; width:8rem;"'
+
+TD_NUM_STYLE = 'style="border:1px solid #ddd; padding:6px; text-align:center;"'
+TD_TITLE_STYLE = 'style="border:1px solid #ddd; padding:6px; white-space:nowrap;"'
+TD_LINK_STYLE = 'style="border:1px solid #ddd; padding:6px;"'
+TD_DATE_STYLE = 'style="border:1px solid #ddd; padding:6px;"'
+
 
 def get_first_env(*names: str, default: str = "") -> str:
     for name in names:
@@ -31,8 +43,8 @@ def get_int_env(*names: str, default: int) -> int:
         raise ValueError(f"Environment variable for {names} must be an integer.") from exc
 
 
-USERNAME_GITHUB = get_first_env("USERNAME_GITHUB", "USERNAME_GITHUB", default="Rapter1990")
-PROFILE_REPO = get_first_env("PROFILE_REPO", default=USERNAME_GITHUB)
+GITHUB_USERNAME = get_first_env("USERNAME_GITHUB", "GITHUB_USERNAME", default="Rapter1990")
+PROFILE_REPO = get_first_env("PROFILE_REPO", default=GITHUB_USERNAME)
 MEDIUM_USERNAME = get_first_env("MEDIUM_USERNAME", default="")
 README_PATH = Path(get_first_env("README_PATH", default="README.md"))
 
@@ -60,12 +72,19 @@ def parse_iso_datetime(value: str) -> datetime:
     return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
+def clean_text(value: str | None) -> str:
+    if not value:
+        return ""
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def prettify_repo_name(repo_name: str) -> str:
+    words = repo_name.replace("_", " ").replace("-", " ").split()
+    return " ".join(word.capitalize() for word in words)
+
+
 def format_medium_date(pub_date: str) -> str:
     return parsedate_to_datetime(pub_date).strftime("%B %d, %Y")
-
-
-def format_absolute_github_date(iso_value: str) -> str:
-    return parse_iso_datetime(iso_value).strftime("%B %d, %Y")
 
 
 def format_relative_github_date(iso_value: str) -> str:
@@ -81,18 +100,7 @@ def format_relative_github_date(iso_value: str) -> str:
     if days < 30:
         return f"Updated {days} days ago"
 
-    return f"Updated on {dt.strftime('%B %d, %Y')}"
-
-
-def prettify_repo_name(repo_name: str) -> str:
-    words = repo_name.replace("_", " ").replace("-", " ").split()
-    return " ".join(word.capitalize() for word in words)
-
-
-def clean_text(value: str | None) -> str:
-    if not value:
-        return ""
-    return re.sub(r"\s+", " ", value).strip()
+    return f"Updated on {dt.strftime('%b %d, %Y')}"
 
 
 def get_github_headers() -> dict[str, str]:
@@ -102,7 +110,7 @@ def get_github_headers() -> dict[str, str]:
         "User-Agent": f"{PROFILE_REPO}-readme-updater",
     }
 
-    token = get_first_env("TOKEN_GITHUB", "TOKEN_GITHUB", default="")
+    token = get_first_env("GITHUB_TOKEN", "TOKEN_GITHUB", default="")
     if token:
         headers["Authorization"] = f"Bearer {token}"
 
@@ -111,7 +119,7 @@ def get_github_headers() -> dict[str, str]:
 
 def fetch_latest_projects() -> list[dict[str, str]]:
     url = (
-        f"https://api.github.com/users/{USERNAME_GITHUB}/repos"
+        f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
         f"?type=owner&sort=updated&direction=desc&per_page=100"
     )
 
@@ -142,10 +150,8 @@ def fetch_latest_projects() -> list[dict[str, str]]:
         latest_projects.append(
             {
                 "title": title,
-                "repo_name": repo_name,
-                "link": repo.get("html_url", ""),
+                "link": clean_text(repo.get("html_url")),
                 "date": format_relative_github_date(updated_at) if updated_at else "",
-                "date_sort": updated_at,
             }
         )
 
@@ -191,55 +197,55 @@ def fetch_latest_medium_posts() -> list[dict[str, str]]:
     return posts
 
 
+def build_empty_cells() -> str:
+    return (
+        f"<td {TD_NUM_STYLE}></td>"
+        f"<td {TD_TITLE_STYLE}></td>"
+        f"<td {TD_LINK_STYLE}></td>"
+        f"<td {TD_DATE_STYLE}></td>"
+    )
+
+
 def build_project_cells(index: int, project: dict[str, str] | None) -> str:
     if not project:
-        return (
-            '<td style="border:1px solid #ddd; padding:6px; text-align:center;"></td>'
-            '<td style="border:1px solid #ddd; padding:6px;"></td>'
-            '<td style="border:1px solid #ddd; padding:6px;"></td>'
-            '<td style="border:1px solid #ddd; padding:6px;"></td>'
-        )
+        return build_empty_cells()
 
     title = html.escape(project["title"])
     link = html.escape(project["link"], quote=True)
     date = html.escape(project["date"])
 
     return (
-        f'<td style="border:1px solid #ddd; padding:6px; text-align:center;">{index}</td>'
-        f'<td style="border:1px solid #ddd; padding:6px; white-space:normal; word-break:break-word;">{title}</td>'
-        f'<td style="border:1px solid #ddd; padding:6px;"><a href="{link}" target="_blank" rel="noopener noreferrer">View</a></td>'
-        f'<td style="border:1px solid #ddd; padding:6px;">{date}</td>'
+        f"<td {TD_NUM_STYLE}>{index}</td>"
+        f"<td {TD_TITLE_STYLE}>{title}</td>"
+        f'<td {TD_LINK_STYLE}><a href="{link}" target="_blank" rel="noopener noreferrer">View</a></td>'
+        f"<td {TD_DATE_STYLE}>{date}</td>"
     )
 
 
 def build_post_cells(index: int, post: dict[str, str] | None) -> str:
     if not post:
-        return (
-            '<td style="border:1px solid #ddd; padding:6px; text-align:center;"></td>'
-            '<td style="border:1px solid #ddd; padding:6px;"></td>'
-            '<td style="border:1px solid #ddd; padding:6px;"></td>'
-            '<td style="border:1px solid #ddd; padding:6px;"></td>'
-        )
+        return build_empty_cells()
 
     title = html.escape(post["title"])
     link = html.escape(post["link"], quote=True)
     date = html.escape(post["date"])
 
     return (
-        f'<td style="border:1px solid #ddd; padding:6px; text-align:center;">{index}</td>'
-        f'<td style="border:1px solid #ddd; padding:6px; white-space:normal; word-break:break-word;">{title}</td>'
-        f'<td style="border:1px solid #ddd; padding:6px;"><a href="{link}" target="_blank" rel="noopener noreferrer">Read</a></td>'
-        f'<td style="border:1px solid #ddd; padding:6px;">{date}</td>'
+        f"<td {TD_NUM_STYLE}>{index}</td>"
+        f"<td {TD_TITLE_STYLE}>{title}</td>"
+        f'<td {TD_LINK_STYLE}><a href="{link}" target="_blank" rel="noopener noreferrer">Read</a></td>'
+        f"<td {TD_DATE_STYLE}>{date}</td>"
     )
 
 
 def build_html_table(projects: list[dict[str, str]], posts: list[dict[str, str]]) -> str:
-    row_count = max(len(projects), len(posts), PROJECT_LIMIT, POST_LIMIT, 1)
+    row_count = max(PROJECT_LIMIT, POST_LIMIT, len(projects), len(posts), 1)
 
     rows: list[str] = []
     for i in range(row_count):
         project = projects[i] if i < len(projects) else None
         post = posts[i] if i < len(posts) else None
+
         rows.append(
             "<tr>"
             f"{build_project_cells(i + 1, project)}"
@@ -248,22 +254,22 @@ def build_html_table(projects: list[dict[str, str]], posts: list[dict[str, str]]
         )
 
     return (
-        '<table style="width:100%; border-collapse:collapse;">'
+        f"<table {TABLE_STYLE}>"
         "<thead>"
-        '<tr>'
-        '<th colspan="4" style="border:1px solid #ddd; padding:8px; text-align:left;">Latest Projects</th>'
-        '<th colspan="4" style="border:1px solid #ddd; padding:8px; text-align:left;">Latest Blog Posts</th>'
-        '</tr>'
-        '<tr>'
-        '<th style="border:1px solid #ddd; padding:6px; width:5rem;">#</th>'
-        '<th style="border:1px solid #ddd; padding:6px; width:24rem;">Title</th>'
-        '<th style="border:1px solid #ddd; padding:6px; width:8rem;">Link</th>'
-        '<th style="border:1px solid #ddd; padding:6px; width:12rem;">Date</th>'
-        '<th style="border:1px solid #ddd; padding:6px; width:5rem;">#</th>'
-        '<th style="border:1px solid #ddd; padding:6px; width:24rem;">Title</th>'
-        '<th style="border:1px solid #ddd; padding:6px; width:8rem;">Link</th>'
-        '<th style="border:1px solid #ddd; padding:6px; width:12rem;">Date</th>'
-        '</tr>'
+        "<tr>"
+        f"<th colspan=\"4\" {TH_GROUP_STYLE}>Latest Projects</th>"
+        f"<th colspan=\"4\" {TH_GROUP_STYLE}>Latest Blog Posts</th>"
+        "</tr>"
+        "<tr>"
+        f"<th {TH_NUM_STYLE}>#</th>"
+        f"<th {TH_TITLE_STYLE}>Title</th>"
+        f"<th {TH_LINK_STYLE}>Link</th>"
+        f"<th {TH_DATE_STYLE}>Date</th>"
+        f"<th {TH_NUM_STYLE}>#</th>"
+        f"<th {TH_TITLE_STYLE}>Title</th>"
+        f"<th {TH_LINK_STYLE}>Link</th>"
+        f"<th {TH_DATE_STYLE}>Date</th>"
+        "</tr>"
         "</thead>"
         "<tbody>"
         + "".join(rows) +
@@ -291,7 +297,7 @@ def main() -> None:
         raise FileNotFoundError(f"{README_PATH} not found.")
 
     print("Configuration:")
-    print(f"  USERNAME_GITHUB = {USERNAME_GITHUB}")
+    print(f"  GITHUB_USERNAME = {GITHUB_USERNAME}")
     print(f"  PROFILE_REPO    = {PROFILE_REPO}")
     print(f"  MEDIUM_USERNAME = {MEDIUM_USERNAME or '(empty)'}")
     print(f"  README_PATH     = {README_PATH}")
