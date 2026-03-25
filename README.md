@@ -49,138 +49,97 @@
       <th colspan="4" style="border:1px solid #ddd; padding:8px; text-align:left;">Latest Blog Posts</th>
     </tr>
     <tr>
-      <!-- Projects subheaders -->
       <th style="border:1px solid #ddd; padding:6px; width:5rem;">#</th>
-      <th style="border:1px solid #ddd; padding:6px; width:10rem;">Title</th>
+      <th style="border:1px solid #ddd; padding:6px; width:16rem;">Title</th>
       <th style="border:1px solid #ddd; padding:6px; width:8rem;">Link</th>
-      <th style="border:1px solid #ddd; padding:6px; width:5rem;">Date</th>
-      <!-- Blog subheaders -->
+      <th style="border:1px solid #ddd; padding:6px; width:8rem;">Date</th>
+
       <th style="border:1px solid #ddd; padding:6px; width:5rem;">#</th>
-      <th style="border:1px solid #ddd; padding:6px; width:10rem;">Title</th>
+      <th style="border:1px solid #ddd; padding:6px; width:16rem;">Title</th>
       <th style="border:1px solid #ddd; padding:6px; width:8rem;">Link</th>
-      <th style="border:1px solid #ddd; padding:6px; width:5rem;">Date</th>
+      <th style="border:1px solid #ddd; padding:6px; width:8rem;">Date</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <!-- Projects -->
+
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
-      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Case Study - Cleaning Booking Microservices
-      </td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">cleaning-booking-microservices</td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/cleaning-booking-microservices" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/cleaning-booking-microservices" target="_blank" rel="noopener noreferrer">View</a>
       </td>
-      <td style="border:1px solid #ddd; padding:6px;">
-        March, 2026
-      </td>
-      <!-- Blog Posts -->
+      <td style="border:1px solid #ddd; padding:6px;">February 2026</td>
+
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">1</td>
-      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Spring Boot JPA Entity Field Encryption
-      </td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">Spring Boot JPA Entity Field Encryption</td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://medium.com/@sngermiyanoglu/spring-boot-jpa-entity-field-encryption-df52b8296542" target="_blank" rel="noopener">Read</a>
+        <a href="https://sngermiyanoglu.medium.com/spring-boot-jpa-entity-field-encryption-df52b8296542?source=rss-39769b9065d0------2" target="_blank" rel="noopener noreferrer">Read</a>
       </td>
-      <td style="border:1px solid #ddd; padding:6px;">
-        March, 2026
-      </td>
+      <td style="border:1px solid #ddd; padding:6px;">March 2026</td>
     </tr>
     <tr>
-      <!-- Projects -->
+
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
-      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Case Study - Aviation Routes (Spring Boot + React)
-      </td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">aviation-routes</td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/aviation-routes" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/aviation-routes" target="_blank" rel="noopener noreferrer">View</a>
       </td>
-      <td style="border:1px solid #ddd; padding:6px;">
-        January, 2026
-      </td
-      <!-- Blog Posts -->
+      <td style="border:1px solid #ddd; padding:6px;">January 2026</td>
+
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">2</td>
-      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Jenkins + Spring Boot — Build, Test, Dockerize, and Push to Docker Hub
-      </td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">Jenkins + Spring Boot — Build, Test, Dockerize, and Push to Docker Hub</td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://medium.com/@sngermiyanoglu/jenkins-spring-boot-build-test-dockerize-and-push-to-docker-hub-a178fefb099b" target="_blank" rel="noopener">Read</a>
+        <a href="https://sngermiyanoglu.medium.com/jenkins-spring-boot-build-test-dockerize-and-push-to-docker-hub-a178fefb099b?source=rss-39769b9065d0------2" target="_blank" rel="noopener noreferrer">Read</a>
       </td>
-      <td style="border:1px solid #ddd; padding:6px;">
-        February, 2026
-      </td>   
+      <td style="border:1px solid #ddd; padding:6px;">February 2026</td>
     </tr>
     <tr>
-      <!-- Projects -->
+
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">3</td>
-      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Case Study - Geospatial Location with Redis in Spring Boot
-      </td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">geospatial-location-with-redis</td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/geospatial-location-with-redis" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/geospatial-location-with-redis" target="_blank" rel="noopener noreferrer">View</a>
       </td>
-      <td style="border:1px solid #ddd; padding:6px;">
-        December, 2025
-      </td>
-      <!-- Blog Posts -->
+      <td style="border:1px solid #ddd; padding:6px;">December 2025</td>
+
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">3</td>
-      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        PostgreSQL Data Migration on Minikube running on Docker with a Kubernetes CronJob
-      </td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">PostgreSQL Data Migration on Minikube running on Docker with a Kubernetes CronJob</td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://sngermiyanoglu.medium.com/postgresql-data-migration-on-minikube-running-on-docker-with-a-kubernetes-cronjob-ececa286cf40" target="_blank" rel="noopener">Read</a>
+        <a href="https://sngermiyanoglu.medium.com/postgresql-data-migration-on-minikube-running-on-docker-with-a-kubernetes-cronjob-ececa286cf40?source=rss-39769b9065d0------2" target="_blank" rel="noopener noreferrer">Read</a>
       </td>
-      <td style="border:1px solid #ddd; padding:6px;">
-        February, 2026
-      </td>  
+      <td style="border:1px solid #ddd; padding:6px;">January 2026</td>
     </tr>
     <tr>
-      <!-- Projects -->
+
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">4</td>
-      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        CDC Debezium Outbox (Kafka CDC Outbox Pattern)
-      </td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">cdc-debezium-outbox</td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/cdc-debezium-outbox" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/cdc-debezium-outbox" target="_blank" rel="noopener noreferrer">View</a>
       </td>
-      <td style="border:1px solid #ddd; padding:6px;">
-        November, 2025
-      </td>
-      <!-- Blog Posts -->
+      <td style="border:1px solid #ddd; padding:6px;">November 2025</td>
+
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">4</td>
-      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Flyweight Pattern in Spring Boot — Render SVG Icons Efficiently (With Caching)
-      </td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">Flyweight Pattern in Spring Boot — Render SVG Icons Efficiently (With Caching)</td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://sngermiyanoglu.medium.com/flyweight-pattern-in-spring-boot-render-svg-icons-efficiently-with-caching-1455370b6536" target="_blank" rel="noopener">Read</a>
+        <a href="https://sngermiyanoglu.medium.com/flyweight-pattern-in-spring-boot-render-svg-icons-efficiently-with-caching-1455370b6536?source=rss-39769b9065d0------2" target="_blank" rel="noopener noreferrer">Read</a>
       </td>
-      <td style="border:1px solid #ddd; padding:6px;">
-        January, 2026
-      </td>    
+      <td style="border:1px solid #ddd; padding:6px;">January 2026</td>
     </tr>
     <tr>
-      <!-- Projects -->
+
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">5</td>
-      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Case Study - XLSX ZIP to TXT ZIP Conversion
-      </td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">xlsxziptotxtzip</td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://github.com/Rapter1990/xlsxziptotxtzip" target="_blank" rel="noopener">View</a>
+        <a href="https://github.com/Rapter1990/xlsxziptotxtzip" target="_blank" rel="noopener noreferrer">View</a>
       </td>
-      <td style="border:1px solid #ddd; padding:6px;">
-        November, 2025
-      </td>
-      <!-- Blog Posts -->
+      <td style="border:1px solid #ddd; padding:6px;">November 2025</td>
+
       <td style="border:1px solid #ddd; padding:6px; text-align:center;">5</td>
-      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">
-        Chain of Responsibility in Spring Boot — Build a Order Validation Process
-      </td>
+      <td style="border:1px solid #ddd; padding:6px; white-space:nowrap;">Chain of Responsibility in Spring Boot — Build a Order Validation Process</td>
       <td style="border:1px solid #ddd; padding:6px;">
-        <a href="https://medium.com/@sngermiyanoglu/chain-of-responsibility-in-spring-boot-build-a-order-validation-process-389788e13f4f" target="_blank" rel="noopener">Read</a>
+        <a href="https://sngermiyanoglu.medium.com/chain-of-responsibility-in-spring-boot-build-a-order-validation-process-389788e13f4f?source=rss-39769b9065d0------2" target="_blank" rel="noopener noreferrer">Read</a>
       </td>
-      <td style="border:1px solid #ddd; padding:6px;">
-        December, 2025
-      </td>  
+      <td style="border:1px solid #ddd; padding:6px;">December 2025</td>
     </tr>
   </tbody>
 </table>
