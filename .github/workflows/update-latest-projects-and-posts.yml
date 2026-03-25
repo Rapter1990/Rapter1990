@@ -24,6 +24,9 @@ jobs:
       PROJECT_LIMIT: ${{ secrets.PROJECT_LIMIT }}
       POST_LIMIT: ${{ secrets.POST_LIMIT }}
       EXCLUDED_REPOS: ${{ secrets.EXCLUDED_REPOS }}
+      TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
+
+      # Let the Python script read the token with the expected name
       GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
 
     steps:
@@ -32,6 +35,7 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.TOKEN_GITHUB }}
+          persist-credentials: true
 
       - name: Show effective configuration
         run: |
@@ -74,6 +78,8 @@ jobs:
         run: |
           set -e
           BRANCH="${GITHUB_REF_NAME}"
+
+          git remote set-url origin "https://x-access-token:${TOKEN_GITHUB}@github.com/${GITHUB_REPOSITORY}.git"
 
           for i in 1 2 3; do
             echo "Push attempt $i..."
