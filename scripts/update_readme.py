@@ -102,7 +102,7 @@ def get_github_headers() -> dict[str, str]:
         "User-Agent": f"{PROFILE_REPO}-readme-updater",
     }
 
-    token = get_first_env("GITHUB_TOKEN", "TOKEN_GITHUB", default="")
+    token = get_first_env("TOKEN_GITHUB", "TOKEN_GITHUB", default="")
     if token:
         headers["Authorization"] = f"Bearer {token}"
 

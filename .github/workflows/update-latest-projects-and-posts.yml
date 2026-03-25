@@ -17,26 +17,21 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      USERNAME_GITHUB: ${{ secrets.USERNAME_GITHUB }}
+      GITHUB_USERNAME: ${{ secrets.USERNAME_GITHUB }}
       PROFILE_REPO: ${{ secrets.PROFILE_REPO }}
       MEDIUM_USERNAME: ${{ secrets.MEDIUM_USERNAME }}
       README_PATH: ${{ secrets.README_PATH }}
       PROJECT_LIMIT: ${{ secrets.PROJECT_LIMIT }}
       POST_LIMIT: ${{ secrets.POST_LIMIT }}
       EXCLUDED_REPOS: ${{ secrets.EXCLUDED_REPOS }}
-      TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
+      GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.TOKEN_GITHUB }}
           fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+          token: ${{ secrets.TOKEN_GITHUB }}
 
       - name: Show effective configuration
         run: |
@@ -49,16 +44,16 @@ jobs:
           echo "EXCLUDED_REPOS=$EXCLUDED_REPOS"
           echo "BRANCH=${GITHUB_REF_NAME}"
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Update README
         run: python scripts/update_readme.py
 
-      - name: Commit and push changes
-        shell: bash
+      - name: Commit changes
         run: |
-          set -e
-
-          BRANCH="${GITHUB_REF_NAME}"
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -71,12 +66,16 @@ jobs:
 
           git commit -m "chore: update latest projects and blog posts"
 
+      - name: Rebase and push
+        run: |
+          BRANCH="${GITHUB_REF_NAME}"
+
           for i in 1 2 3; do
             echo "Push attempt $i..."
 
             git fetch origin "$BRANCH"
             git rebase "origin/$BRANCH" || {
-              echo "Rebase failed. Aborting rebase and retrying..."
+              echo "Rebase failed. Aborting and retrying..."
               git rebase --abort || true
               sleep 5
               continue
