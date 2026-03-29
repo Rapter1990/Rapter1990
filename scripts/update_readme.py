@@ -124,16 +124,23 @@ def get_github_headers() -> dict[str, str]:
 
     return headers
 
+def get_repo_activity_datetime(repo: dict) -> str:
+    return (
+        repo.get("pushed_at")
+        or repo.get("updated_at")
+        or repo.get("created_at")
+        or ""
+    )
 
 def fetch_latest_projects() -> list[dict[str, str]]:
     url = (
         f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
-        f"?type=owner&sort=created&direction=desc&per_page=100"
+        f"?type=owner&per_page=100"
     )
 
     repos = fetch_json(url, headers=get_github_headers())
-    latest_projects: list[dict[str, str]] = []
 
+    filtered_repos: list[dict] = []
     for repo in repos:
         repo_name = clean_text(repo.get("name"))
         if not repo_name:
@@ -145,26 +152,33 @@ def fetch_latest_projects() -> list[dict[str, str]]:
         if repo.get("archived"):
             continue
 
+        filtered_repos.append(repo)
+
+    # Sort by last pushed date descending so the order matches the visible
+    # repository activity the user expects.
+    filtered_repos.sort(
+        key=lambda repo: parse_iso_datetime(get_repo_activity_datetime(repo))
+        if get_repo_activity_datetime(repo)
+        else datetime.min,
+        reverse=True,
+    )
+
+    latest_projects: list[dict[str, str]] = []
+
+    for repo in filtered_repos[:PROJECT_LIMIT]:
+        repo_name = clean_text(repo.get("name"))
         description = clean_text(repo.get("description"))
         title = description if description else prettify_repo_name(repo_name)
 
-        updated_at = (
-            repo.get("updated_at")
-            or repo.get("pushed_at")
-            or repo.get("created_at")
-            or ""
-        )
+        activity_dt = get_repo_activity_datetime(repo)
 
         latest_projects.append(
             {
                 "title": title,
                 "link": clean_text(repo.get("html_url")),
-                "date": format_github_month_year(updated_at) if updated_at else "",
+                "date": format_github_month_year(activity_dt) if activity_dt else "",
             }
         )
-
-        if len(latest_projects) >= PROJECT_LIMIT:
-            break
 
     return latest_projects
 

@@ -2,7 +2,7 @@ name: Update Latest Projects and Blog Posts
 
 on:
   schedule:
-    - cron: "0 3 * * *"  # every day 03:00 UTC - runs at 06:00 Türkiye time
+    - cron: "2/5 * * * *"
   workflow_dispatch:
 
 permissions:
