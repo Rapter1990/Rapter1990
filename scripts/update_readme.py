@@ -157,7 +157,7 @@ def get_repo_display_date_raw(repo: dict) -> str:
 def fetch_latest_projects() -> list[dict[str, str]]:
     url = (
         f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
-        f"?type=owner&per_page=100"
+        f"?type=owner&per_page=100&sort=updated" # Ask GitHub for updated order
     )
 
     repos = fetch_json(url, headers=get_github_headers())
@@ -166,49 +166,52 @@ def fetch_latest_projects() -> list[dict[str, str]]:
 
     for repo in repos:
         repo_name = clean_text(repo.get("name"))
-        if not repo_name:
+
+        # 1. Filter out exclusions
+        if not repo_name or repo_name in EXCLUDED_REPOS:
             continue
-        if repo_name in EXCLUDED_REPOS:
-            continue
-        if repo.get("fork"):
-            continue
-        if repo.get("archived"):
-            continue
-        if not is_case_study_repo(repo):
+        if repo.get("fork") or repo.get("archived"):
             continue
 
+        # 2. Case Study Filter
         description = clean_text(repo.get("description"))
-        title = description if description else prettify_repo_name(repo_name)
+        if not description.lower().startswith("case study"):
+            continue
+
+        # 3. Determine the "Last Activity" date for sorting
+        # GitHub's 'updated_at' is usually what you see on the profile UI
+        updated_at_raw = repo.get("updated_at")
+        updated_dt = parse_iso_datetime(updated_at_raw) if updated_at_raw else datetime.min
+
+        # 4. Format the Display Date (e.g., "Updated on Dec 26, 2025")
+        # If it's very recent, you might want "Updated last week",
+        # but for a static README, "Updated on [Date]" is more reliable.
+        display_date = format_github_full_date(updated_at_raw)
 
         candidates.append(
             {
                 "repo_name": repo_name,
-                "title": title,
+                "description": description,
                 "link": clean_text(repo.get("html_url")),
-                "created_dt": get_repo_created_datetime(repo),
-                "display_date_raw": get_repo_display_date_raw(repo),
+                "updated_dt": updated_dt,
+                "display_date": display_date,
             }
         )
 
-    # "Latest Projects" = newest created repositories
-    # Tie-break with repo name for stable ordering
-    candidates.sort(
-        key=lambda item: (
-            item["created_dt"],
-            item["repo_name"].lower(),
-        ),
-        reverse=True,
-    )
+    # Sort by the actual timestamp (Newest first)
+    candidates.sort(key=lambda x: x["updated_dt"], reverse=True)
 
     latest_projects: list[dict[str, str]] = []
 
     for item in candidates[:PROJECT_LIMIT]:
+        # Construct the exact string format you requested
+        full_title = f"{item['description']} - Updated on {item['display_date']}"
+
         latest_projects.append(
             {
-                "title": item["title"],
+                "title": full_title,
                 "link": item["link"],
-                "date": format_github_full_date(item["display_date_raw"])
-                if item["display_date_raw"] else "",
+                "date": item["display_date"],
             }
         )
 
