@@ -116,21 +116,24 @@ def format_medium_full_date(pub_date: str) -> str:
     return f"{dt.day} {dt.strftime('%B %Y')}"
 
 
-def get_github_headers() -> dict[str, str]:
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "X-GitHub-Api-Version": "2022-11-28",
-        "User-Agent": f"{PROFILE_REPO}-readme-updater",
-    }
+def is_case_study_repo(repo: dict) -> bool:
+    description = clean_text(repo.get("description"))
+    return description.lower().startswith("case study")
 
-    token = get_first_env("GITHUB_TOKEN", "TOKEN_GITHUB", default="")
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
 
-    return headers
+def get_repo_created_raw(repo: dict) -> str:
+    return clean_text(repo.get("created_at") or "")
 
-def get_repo_activity_raw(repo: dict) -> str:
-    # Match GitHub repository page "Updated ..." behavior first
+
+def get_repo_created_datetime(repo: dict) -> datetime:
+    raw_value = get_repo_created_raw(repo)
+    if not raw_value:
+        return datetime.min
+    return parse_iso_datetime(raw_value)
+
+
+def get_repo_display_date_raw(repo: dict) -> str:
+    # This is only for the Date column shown to the user
     return clean_text(
         repo.get("updated_at")
         or repo.get("pushed_at")
@@ -138,15 +141,6 @@ def get_repo_activity_raw(repo: dict) -> str:
         or ""
     )
 
-def get_repo_activity_datetime(repo: dict) -> datetime:
-    raw_value = get_repo_activity_raw(repo)
-    if not raw_value:
-        return datetime.min
-    return parse_iso_datetime(raw_value)
-
-def is_case_study_repo(repo: dict) -> bool:
-    description = clean_text(repo.get("description"))
-    return description.lower().startswith("case study")
 
 def fetch_latest_projects() -> list[dict[str, str]]:
     url = (
@@ -171,31 +165,38 @@ def fetch_latest_projects() -> list[dict[str, str]]:
         if not is_case_study_repo(repo):
             continue
 
-        candidates.append(repo)
+        description = clean_text(repo.get("description"))
+        title = description if description else prettify_repo_name(repo_name)
 
-    # Sort by full timestamp first, then repo name for stable ordering
+        candidates.append(
+            {
+                "repo_name": repo_name,
+                "title": title,
+                "link": clean_text(repo.get("html_url")),
+                "created_dt": get_repo_created_datetime(repo),
+                "display_date_raw": get_repo_display_date_raw(repo),
+            }
+        )
+
+    # "Latest Projects" = newest created repositories
+    # Tie-break with repo name for stable ordering
     candidates.sort(
-        key=lambda repo: (
-            get_repo_activity_datetime(repo),
-            clean_text(repo.get("name")).lower(),
+        key=lambda item: (
+            item["created_dt"],
+            item["repo_name"].lower(),
         ),
         reverse=True,
     )
 
     latest_projects: list[dict[str, str]] = []
 
-    for repo in candidates[:PROJECT_LIMIT]:
-        repo_name = clean_text(repo.get("name"))
-        description = clean_text(repo.get("description"))
-        title = description if description else prettify_repo_name(repo_name)
-
-        activity_raw = get_repo_activity_raw(repo)
-
+    for item in candidates[:PROJECT_LIMIT]:
         latest_projects.append(
             {
-                "title": title,
-                "link": clean_text(repo.get("html_url")),
-                "date": format_github_full_date(activity_raw) if activity_raw else "",
+                "title": item["title"],
+                "link": item["link"],
+                "date": format_github_full_date(item["display_date_raw"])
+                if item["display_date_raw"] else "",
             }
         )
 
