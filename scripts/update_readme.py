@@ -142,7 +142,7 @@ def get_repo_activity_datetime(repo: dict) -> datetime | None:
 
     return parse_iso_datetime(raw_value)
 
- def get_repo_activity_sort_key(repo: dict) -> tuple[float, str]:
+def get_repo_activity_sort_key(repo: dict) -> tuple[float, str]:
      dt = get_repo_activity_datetime(repo)
      timestamp = dt.timestamp() if dt else float("-inf")
      repo_name = clean_text(repo.get("name")).lower()
