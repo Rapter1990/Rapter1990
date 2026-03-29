@@ -129,24 +129,20 @@ def get_github_headers() -> dict[str, str]:
 
     return headers
 
-def get_repo_activity_datetime(repo: dict) -> datetime | None:
-    raw_value = (
+def get_repo_activity_raw(repo: dict) -> str:
+    return clean_text(
         repo.get("pushed_at")
         or repo.get("updated_at")
         or repo.get("created_at")
         or ""
     )
 
+def get_repo_activity_datetime(repo: dict) -> datetime:
+    raw_value = get_repo_activity_raw(repo)
     if not raw_value:
-        return None
-
+        return datetime.min
     return parse_iso_datetime(raw_value)
 
-def get_repo_activity_sort_key(repo: dict) -> tuple[float, str]:
-     dt = get_repo_activity_datetime(repo)
-     timestamp = dt.timestamp() if dt else float("-inf")
-     repo_name = clean_text(repo.get("name")).lower()
-     return (timestamp, repo_name)
 
 def fetch_latest_projects() -> list[dict[str, str]]:
     url = (
@@ -170,8 +166,15 @@ def fetch_latest_projects() -> list[dict[str, str]]:
 
         filtered_repos.append(repo)
 
+    # IMPORTANT:
+    # Sort ALL repos by the full timestamp first.
+    # This fixes cases where more than one repo belongs to the same month
+    # like December 2025.
     filtered_repos.sort(
-        key=get_repo_activity_sort_key,
+        key=lambda repo: (
+            get_repo_activity_datetime(repo),
+            clean_text(repo.get("name")).lower(),
+        ),
         reverse=True,
     )
 
@@ -182,18 +185,13 @@ def fetch_latest_projects() -> list[dict[str, str]]:
         description = clean_text(repo.get("description"))
         title = description if description else prettify_repo_name(repo_name)
 
-        activity_raw = (
-            repo.get("pushed_at")
-            or repo.get("updated_at")
-            or repo.get("created_at")
-            or ""
-        )
+        activity_raw = get_repo_activity_raw(repo)
 
         latest_projects.append(
             {
                 "title": title,
                 "link": clean_text(repo.get("html_url")),
-                "date": format_github_full_date(activity_raw) if activity_raw else "",
+                "date": format_github_full_date(activity_raw) if activity_raw else ""
             }
         )
 
