@@ -131,8 +131,8 @@ def get_github_headers() -> dict[str, str]:
 
 def get_repo_activity_raw(repo: dict) -> str:
     return clean_text(
-        repo.get("pushed_at")
-        or repo.get("updated_at")
+        repo.get("updated_at")
+        or repo.get("pushed_at")
         or repo.get("created_at")
         or ""
     )
@@ -152,7 +152,8 @@ def fetch_latest_projects() -> list[dict[str, str]]:
 
     repos = fetch_json(url, headers=get_github_headers())
 
-    filtered_repos: list[dict] = []
+    candidates: list[dict[str, str]] = []
+
     for repo in repos:
         repo_name = clean_text(repo.get("name"))
         if not repo_name:
@@ -164,34 +165,38 @@ def fetch_latest_projects() -> list[dict[str, str]]:
         if repo.get("archived"):
             continue
 
-        filtered_repos.append(repo)
+        description = clean_text(repo.get("description"))
+        title = description if description else prettify_repo_name(repo_name)
 
-    # IMPORTANT:
-    # Sort ALL repos by the full timestamp first.
-    # This fixes cases where more than one repo belongs to the same month
-    # like December 2025.
-    filtered_repos.sort(
-        key=lambda repo: (
-            get_repo_activity_datetime(repo),
-            clean_text(repo.get("name")).lower(),
+        activity_raw = get_repo_activity_raw(repo)
+
+        candidates.append(
+            {
+                "repo_name": repo_name,
+                "title": title,
+                "link": clean_text(repo.get("html_url")),
+                "activity_raw": activity_raw,
+                "activity_dt": get_repo_activity_datetime(repo),
+            }
+        )
+
+    # Sort by full timestamp first, then repo name for stable ordering
+    candidates.sort(
+        key=lambda item: (
+            item["activity_dt"],
+            item["repo_name"].lower(),
         ),
         reverse=True,
     )
 
     latest_projects: list[dict[str, str]] = []
 
-    for repo in filtered_repos[:PROJECT_LIMIT]:
-        repo_name = clean_text(repo.get("name"))
-        description = clean_text(repo.get("description"))
-        title = description if description else prettify_repo_name(repo_name)
-
-        activity_raw = get_repo_activity_raw(repo)
-
+    for item in candidates[:PROJECT_LIMIT]:
         latest_projects.append(
             {
-                "title": title,
-                "link": clean_text(repo.get("html_url")),
-                "date": format_github_full_date(activity_raw) if activity_raw else ""
+                "title": item["title"],
+                "link": item["link"],
+                "date": format_github_full_date(item["activity_raw"]) if item["activity_raw"] else "",
             }
         )
 
