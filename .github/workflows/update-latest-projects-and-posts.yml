@@ -2,7 +2,7 @@ name: Update Latest Projects and Blog Posts
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # every 5 minutes
+    - cron: "2/5 * * * *"   # every 5 minutes
   workflow_dispatch:
 
 permissions:
