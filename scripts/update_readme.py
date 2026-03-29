@@ -157,65 +157,62 @@ def get_repo_display_date_raw(repo: dict) -> str:
 def fetch_latest_projects() -> list[dict[str, str]]:
     url = (
         f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
-        f"?type=owner&per_page=100&sort=updated" # Ask GitHub for updated order
+        f"?type=owner&per_page=100&sort=pushed&direction=desc"
     )
 
     repos = fetch_json(url, headers=get_github_headers())
 
-    candidates: list[dict] = []
+    candidates: list[dict[str, object]] = []
 
     for repo in repos:
         repo_name = clean_text(repo.get("name"))
 
-        # 1. Filter out exclusions
+        # Exclude profile repo and other excluded repos
         if not repo_name or repo_name in EXCLUDED_REPOS:
             continue
+
+        # Exclude forked / archived repos
         if repo.get("fork") or repo.get("archived"):
             continue
 
-        # 2. Case Study Filter
-        description = clean_text(repo.get("description"))
-        if not description.lower().startswith("case study"):
+        # Use real latest activity for ordering
+        last_activity_raw = clean_text(
+            repo.get("pushed_at")
+            or repo.get("updated_at")
+            or repo.get("created_at")
+            or ""
+        )
+
+        if not last_activity_raw:
             continue
 
-        # 3. Determine the "Last Activity" date for sorting
-        # GitHub's 'updated_at' is usually what you see on the profile UI
-        updated_at_raw = repo.get("updated_at")
-        updated_dt = parse_iso_datetime(updated_at_raw) if updated_at_raw else datetime.min
+        last_activity_dt = parse_iso_datetime(last_activity_raw)
 
-        # 4. Format the Display Date (e.g., "Updated on Dec 26, 2025")
-        # If it's very recent, you might want "Updated last week",
-        # but for a static README, "Updated on [Date]" is more reliable.
-        display_date = format_github_full_date(updated_at_raw)
+        # Use description as display title, fallback to repo name
+        description = clean_text(repo.get("description"))
+        title = description if description else prettify_repo_name(repo_name)
+
+        display_date = format_github_full_date(last_activity_raw)
 
         candidates.append(
             {
-                "repo_name": repo_name,
-                "description": description,
+                "title": f"{title} - {display_date}",
                 "link": clean_text(repo.get("html_url")),
-                "updated_dt": updated_dt,
-                "display_date": display_date,
+                "date": display_date,
+                "sort_date": last_activity_dt,
             }
         )
 
-    # Sort by the actual timestamp (Newest first)
-    candidates.sort(key=lambda x: x["updated_dt"], reverse=True)
+    candidates.sort(key=lambda item: item["sort_date"], reverse=True)
 
-    latest_projects: list[dict[str, str]] = []
-
-    for item in candidates[:PROJECT_LIMIT]:
-        # Construct the exact string format you requested
-        full_title = f"{item['description']} - Updated on {item['display_date']}"
-
-        latest_projects.append(
-            {
-                "title": full_title,
-                "link": item["link"],
-                "date": item["display_date"],
-            }
-        )
-
-    return latest_projects
+    return [
+        {
+            "title": item["title"],
+            "link": item["link"],
+            "date": item["date"],
+        }
+        for item in candidates[:PROJECT_LIMIT]
+    ]
 
 def fetch_latest_medium_posts() -> list[dict[str, str]]:
     if not MEDIUM_USERNAME:
