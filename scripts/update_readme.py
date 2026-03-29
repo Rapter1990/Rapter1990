@@ -127,7 +127,7 @@ def get_github_headers() -> dict[str, str]:
     return headers
 
 def get_repo_activity_datetime(repo: dict) -> str:
-    return (
+    return clean_text(
         repo.get("pushed_at")
         or repo.get("updated_at")
         or repo.get("created_at")
@@ -156,10 +156,19 @@ def fetch_latest_projects() -> list[dict[str, str]]:
 
         filtered_repos.append(repo)
 
+    # Sort by real repo activity:
+    # 1) pushed_at
+    # 2) updated_at
+    # 3) created_at
+    #
+    # ISO-8601 strings sort correctly lexicographically here,
+    # so this keeps full timestamp precision even when multiple
+    # repos belong to the same month like December 2025.
     filtered_repos.sort(
-        key=lambda repo: parse_iso_datetime(get_repo_activity_datetime(repo))
-        if get_repo_activity_datetime(repo)
-        else datetime.min,
+        key=lambda repo: (
+            get_repo_activity_datetime(repo),
+            clean_text(repo.get("name"))
+        ),
         reverse=True,
     )
 
@@ -176,7 +185,7 @@ def fetch_latest_projects() -> list[dict[str, str]]:
             {
                 "title": title,
                 "link": clean_text(repo.get("html_url")),
-                "date": format_github_month_year(activity_dt),
+                "date": format_github_month_year(activity_dt) if activity_dt else "",
             }
         )
 
