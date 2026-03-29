@@ -196,7 +196,7 @@ def fetch_latest_projects() -> list[dict[str, str]]:
 
         candidates.append(
             {
-                "title": f"{title} - {display_date}",
+                "title": title,
                 "link": clean_text(repo.get("html_url")),
                 "date": display_date,
                 "sort_date": last_activity_dt,
