@@ -104,6 +104,8 @@ def prettify_repo_name(repo_name: str) -> str:
 
 
 def format_github_month_year(iso_value: str) -> str:
+    if not iso_value:
+        return ""
     return parse_iso_datetime(iso_value).strftime("%B %Y")
 
 
@@ -154,8 +156,6 @@ def fetch_latest_projects() -> list[dict[str, str]]:
 
         filtered_repos.append(repo)
 
-    # Sort by last pushed date descending so the order matches the visible
-    # repository activity the user expects.
     filtered_repos.sort(
         key=lambda repo: parse_iso_datetime(get_repo_activity_datetime(repo))
         if get_repo_activity_datetime(repo)
@@ -176,12 +176,11 @@ def fetch_latest_projects() -> list[dict[str, str]]:
             {
                 "title": title,
                 "link": clean_text(repo.get("html_url")),
-                "date": format_github_month_year(activity_dt) if activity_dt else "",
+                "date": format_github_month_year(activity_dt),
             }
         )
 
     return latest_projects
-
 
 def fetch_latest_medium_posts() -> list[dict[str, str]]:
     if not MEDIUM_USERNAME:
