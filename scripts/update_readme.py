@@ -103,14 +103,17 @@ def prettify_repo_name(repo_name: str) -> str:
     return " ".join(word.capitalize() for word in words)
 
 
-def format_github_month_year(iso_value: str) -> str:
+def format_github_full_date(iso_value: str) -> str:
     if not iso_value:
         return ""
-    return parse_iso_datetime(iso_value).strftime("%B %Y")
+
+    dt = parse_iso_datetime(iso_value)
+    return f"{dt.day} {dt.strftime('%B %Y')}"
 
 
-def format_medium_month_year(pub_date: str) -> str:
-    return parsedate_to_datetime(pub_date).strftime("%B %Y")
+def format_medium_full_date(pub_date: str) -> str:
+    dt = parsedate_to_datetime(pub_date)
+    return f"{dt.day} {dt.strftime('%B %Y')}"
 
 
 def get_github_headers() -> dict[str, str]:
@@ -126,13 +129,24 @@ def get_github_headers() -> dict[str, str]:
 
     return headers
 
-def get_repo_activity_datetime(repo: dict) -> str:
-    return clean_text(
+def get_repo_activity_datetime(repo: dict) -> datetime | None:
+    raw_value = (
         repo.get("pushed_at")
         or repo.get("updated_at")
         or repo.get("created_at")
         or ""
     )
+
+    if not raw_value:
+        return None
+
+    return parse_iso_datetime(raw_value)
+
+ def get_repo_activity_sort_key(repo: dict) -> tuple[float, str]:
+     dt = get_repo_activity_datetime(repo)
+     timestamp = dt.timestamp() if dt else float("-inf")
+     repo_name = clean_text(repo.get("name")).lower()
+     return (timestamp, repo_name)
 
 def fetch_latest_projects() -> list[dict[str, str]]:
     url = (
@@ -156,19 +170,8 @@ def fetch_latest_projects() -> list[dict[str, str]]:
 
         filtered_repos.append(repo)
 
-    # Sort by real repo activity:
-    # 1) pushed_at
-    # 2) updated_at
-    # 3) created_at
-    #
-    # ISO-8601 strings sort correctly lexicographically here,
-    # so this keeps full timestamp precision even when multiple
-    # repos belong to the same month like December 2025.
     filtered_repos.sort(
-        key=lambda repo: (
-            get_repo_activity_datetime(repo),
-            clean_text(repo.get("name"))
-        ),
+        key=get_repo_activity_sort_key,
         reverse=True,
     )
 
@@ -179,13 +182,18 @@ def fetch_latest_projects() -> list[dict[str, str]]:
         description = clean_text(repo.get("description"))
         title = description if description else prettify_repo_name(repo_name)
 
-        activity_dt = get_repo_activity_datetime(repo)
+        activity_raw = (
+            repo.get("pushed_at")
+            or repo.get("updated_at")
+            or repo.get("created_at")
+            or ""
+        )
 
         latest_projects.append(
             {
                 "title": title,
                 "link": clean_text(repo.get("html_url")),
-                "date": format_github_month_year(activity_dt) if activity_dt else "",
+                "date": format_github_full_date(activity_raw) if activity_raw else "",
             }
         )
 
@@ -220,12 +228,11 @@ def fetch_latest_medium_posts() -> list[dict[str, str]]:
             {
                 "title": html.unescape(title),
                 "link": link,
-                "date": format_medium_month_year(pub_date),
+                "date": format_medium_full_date(pub_date),
             }
         )
 
     return posts
-
 
 def build_empty_cells() -> str:
     return (
