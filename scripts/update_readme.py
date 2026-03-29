@@ -115,6 +115,18 @@ def format_medium_full_date(pub_date: str) -> str:
     dt = parsedate_to_datetime(pub_date)
     return f"{dt.day} {dt.strftime('%B %Y')}"
 
+def get_github_headers() -> dict[str, str]:
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": f"{PROFILE_REPO}-readme-updater",
+    }
+
+    token = get_first_env("GITHUB_TOKEN", "TOKEN_GITHUB", default="")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    return headers
 
 def is_case_study_repo(repo: dict) -> bool:
     description = clean_text(repo.get("description"))
