@@ -155,70 +155,90 @@
 ## 📚 Language and Tools
 <table width="100%">
   <tr>
-    <!-- 0x0: Programming Languages -->
-    <td id="0x0" valign="top">
-      <strong>Programming Languages</strong><br>
-      <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" alt="Java" width="40" height="40"/>
-      <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-      <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
+    <td width="25%" align="center" valign="top">
+      <strong>Programming Languages</strong><br><br>
+      <table align="center">
+        <tr>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="24" height="24"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="24" height="24"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="24" height="24"/></td>
+        </tr>
+      </table>
     </td>
-    <!-- 0x1: Mobile / Frontend -->
-    <td id="0x1" valign="top">
-      <strong>Mobile / Frontend</strong><br>
-      <img src="https://github.com/devicons/devicon/blob/master/icons/android/android-plain-wordmark.svg" alt="Android" width="40" height="40"/>
-      <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" width="40" height="40"/>
-      <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="Redux" width="40" height="40"/>
+    <td width="25%" align="center" valign="top">
+      <strong>Mobile / Frontend</strong><br><br>
+      <table align="center">
+        <tr>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux" width="22" height="22"/></td>
+        </tr>
+      </table>
     </td>
-  </tr>
-  <tr>
-    <!-- 1x0: Backend & API Tools -->
-    <td id="1x0" valign="top">
-      <strong>Backend &amp; API Tools</strong><br>
-      <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring" width="40" height="40"/>
-      <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/postman/postman-original.svg" alt="Postman" width="40" height="40"/>
-      <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/swagger/swagger-original.svg" alt="Swagger" width="40" height="40"/>
+    <td width="25%" align="center" valign="top">
+      <strong>Backend &amp; API Tools</strong><br><br>
+      <table align="center">
+        <tr>
+          <td><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring" width="24" height="24"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" width="24" height="24"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg" alt="Swagger" width="24" height="24"/></td>
+        </tr>
+      </table>
     </td>
-    <!-- 1x1: Version Control -->
-    <td id="1x1" valign="top">
-      <strong>Version Control</strong><br>
-      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
-    </td>
-  </tr>
-  <tr>
-    <!-- 2x0: Databases & Data Stores -->
-    <td id="2x0" valign="top">
-      <strong>Databases &amp; Data Stores</strong><br>
-      <img src="https://github.com/devicons/devicon/blob/master/icons/oracle/oracle-original.svg" alt="Oracle" width="40" height="40"/>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/>
-      <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/couchbase/couchbase-original.svg" alt="Couchbase" width="40" height="40"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" width="40" height="40"/>
-    </td>
-    <!-- 2x1: Messaging & Streaming -->
-    <td id="2x1" valign="top">
-      <strong>Messaging &amp; Streaming</strong><br>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Apache Kafka" width="40" height="40"/>
-      <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="RabbitMQ" width="40" height="40"/>
+    <td width="25%" align="center" valign="top">
+      <strong>Version Control</strong><br><br>
+      <table align="center">
+        <tr>
+          <td><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="24" height="24"/></td>
+        </tr>
+      </table>
     </td>
   </tr>
   <tr>
-    <!-- 3x0: Containers, Orchestration & CI/CD -->
-    <td id="3x0" valign="top">
-      <strong>Containers, Orchestration &amp; CI/CD</strong><br>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="40" height="40"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="40" height="40"/>
-      <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="40" height="40"/>
+    <td width="25%" align="center" valign="top">
+      <strong>Databases &amp; Data Stores</strong><br><br>
+      <table align="center">
+        <tr>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle" width="18" height="18"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="18" height="18"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="18" height="18"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="18" height="18"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/couchbase/couchbase-original.svg" alt="Couchbase" width="18" height="18"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" width="18" height="18"/></td>
+        </tr>
+      </table>
     </td>
-    <!-- 3x1: Monitoring & Quality -->
-    <td id="3x1" valign="top">
-      <strong>Monitoring &amp; Quality</strong><br>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" alt="Prometheus" width="40" height="40"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" alt="Grafana" width="40" height="40"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" alt="JUnit" width="40" height="40"/>
-      <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/sonarqube/sonarqube-plain-wordmark.svg" alt="SonarQube" width="40" height="40"/>
+    <td width="25%" align="center" valign="top">
+      <strong>Messaging &amp; Streaming</strong><br><br>
+      <table align="center">
+        <tr>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Apache Kafka" width="22" height="22"/></td>
+          <td><img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="RabbitMQ" width="22" height="22"/></td>
+        </tr>
+      </table>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <strong>Containers, Orchestration &amp; CI/CD</strong><br><br>
+      <table align="center">
+        <tr>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="30" height="30"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="30" height="30"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="20" height="20"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="20" height="20"/</td>
+        </tr>
+      </table>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <strong>Monitoring &amp; Quality</strong><br><br>
+      <table align="center">
+        <tr>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" alt="Prometheus" width="20" height="20"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" alt="Grafana" width="20" height="20"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" alt="JUnit" width="20" height="20"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sonarqube/sonarqube-original.svg" alt="SonarQube" width="20" height="20"/></td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
