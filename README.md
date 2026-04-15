@@ -155,28 +155,30 @@
 ## 📚 Language and Tools
 <table width="100%">
   <tr>
-    <td width="25%" align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <strong>Programming Languages</strong><br><br>
       <table align="center">
         <tr>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="24" height="24"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="24" height="24"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="24" height="24"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="26" height="26"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="26" height="26"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="26" height="26"/></td>
         </tr>
       </table>
     </td>
-    <td width="25%" align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <strong>Mobile / Frontend</strong><br><br>
       <table align="center">
         <tr>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android" width="22" height="22"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" width="22" height="22"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="22" height="22"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android" width="24" height="24"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" width="24" height="24"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="24" height="24"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux" width="24" height="24"/></td>
         </tr>
       </table>
     </td>
-    <td width="25%" align="center" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
       <strong>Backend &amp; API Tools</strong><br><br>
       <table align="center">
         <tr>
@@ -186,7 +188,7 @@
         </tr>
       </table>
     </td>
-    <td width="25%" align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <strong>Version Control</strong><br><br>
       <table align="center">
         <tr>
@@ -196,47 +198,49 @@
     </td>
   </tr>
   <tr>
-    <td width="25%" align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <strong>Databases &amp; Data Stores</strong><br><br>
       <table align="center">
         <tr>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle" width="18" height="18"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="18" height="18"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="18" height="18"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="18" height="18"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/couchbase/couchbase-original.svg" alt="Couchbase" width="18" height="18"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" width="18" height="18"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/couchbase/couchbase-original.svg" alt="Couchbase" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" width="22" height="22"/></td>
         </tr>
       </table>
     </td>
-    <td width="25%" align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <strong>Messaging &amp; Streaming</strong><br><br>
       <table align="center">
         <tr>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Apache Kafka" width="22" height="22"/></td>
-          <td><img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="RabbitMQ" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Apache Kafka" width="24" height="24"/></td>
+          <td><img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="RabbitMQ" width="24" height="24"/></td>
         </tr>
       </table>
     </td>
-    <td width="25%" align="center" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
       <strong>Containers, Orchestration &amp; CI/CD</strong><br><br>
       <table align="center">
         <tr>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="30" height="30"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="30" height="30"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="20" height="20"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="20" height="20"/</td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="22" height="22"/></td>
         </tr>
       </table>
     </td>
-    <td width="25%" align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <strong>Monitoring &amp; Quality</strong><br><br>
       <table align="center">
         <tr>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" alt="Prometheus" width="20" height="20"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" alt="Grafana" width="20" height="20"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" alt="JUnit" width="20" height="20"/></td>
-          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sonarqube/sonarqube-original.svg" alt="SonarQube" width="20" height="20"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" alt="Prometheus" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" alt="Grafana" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" alt="JUnit" width="22" height="22"/></td>
+          <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sonarqube/sonarqube-original.svg" alt="SonarQube" width="22" height="22"/></td>
         </tr>
       </table>
     </td>
