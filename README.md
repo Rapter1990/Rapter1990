@@ -258,7 +258,3 @@
 <a href="https://github.com/Rapter1990">
   <img align="center" src="https://github-stats-extended.vercel.app/api?username=Rapter1990&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Rapter1990's GitHub Stats" />
 </a>
-
-<a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=rapter1990&theme=dark" alt="Rapter1990's GitHub Stats" />
-</a>
