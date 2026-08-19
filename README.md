@@ -14,7 +14,7 @@
 
 <p align="left"> 
     <a href="https://github.com/ryo-ma/github-profile-trophy">
-        <img src="https://github-profile-trophy.vercel.app/?username=Rapter1990&theme=onedark" alt="Rapter1990" />
+        <img src="https://github-profile-trophy.derekyuan.co.uk/?username=Rapter1990&theme=onedark" alt="Rapter1990" />
     </a>
 </p>
 
